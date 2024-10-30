@@ -1,0 +1,58 @@
+-- -
+A- Arquitectura
+A1 Arquitecto - Colaborador
+B- Fiscalização de Obra
+C- Cartografia
+D- Design
+E- Engenharia Electrotécnica
+E1 Engenharia Electrotécnica - Sistemas de Energia
+E2 Engenharia Electrotécnica - Automação, Controlo, Instrumentação
+E3 Engenharia Electrotécnica - Telecomunicações
+E4 Engenharia Electrotécnica - Electrónica e Telecomunicações
+E5 Engenharia Electrotécnica - Energia e Sistemas de Potência
+F- Segurança contra Incêndios
+G- Engenharia Geográfica
+G1 Engenharia Geográfica - Hidrografia
+G2 Engenharia Geográfica - Cartografia
+G3 Engenharia Geográfica - Topografia
+G4 Engenharia Geográfica - Cadastro
+G5 Engenharia Geográfica - SIG
+G6 Engenharia Geográfica - Teledetecção
+G7 Engenharia Geográfica - Fotogrametria
+G8 Engenharia Geográfica - Geodesia
+G9 Engenharia Geográfica - Processamento de imagem
+H- Engenharia do Ambiente
+I- Arquitectura de Interiores
+J- Ferrovia
+J1 Ferrovia - Via
+J2 Ferrovia - Sinalização
+J3 Ferrovia - Catenária
+J4 Ferrovia - Energia Tracção
+L- Arquitectura Paisagista
+M- Engenharia Civil
+M1 Engenharia Civil - Construção de Estradas
+M2 Engenharia Civil - Construção de Vias Férreas
+M3 Engenharia Civil - Construção de Aeródromos
+M4 Engenharia Civil - Construção de Pontes
+M5 Engenharia Civil - Instalações de Higiene e Salubridade
+M6 Engenharia Civil - Hidráulica
+M7 Engenharia Civil - Geotecnia
+M8 Engenharia Civil - Planeamento do território
+M9 Engenharia Civil - Sanitário
+N- Engenharia Naval
+O- Engenharia Mecânica
+O1 Engenharia Mecânica - Concepção
+O2 Engenharia Mecânica - Produção
+P- Coordenação do Projecto
+Q- Engenharia Acústica
+R- Geologia                                                                                            
+S- Engenharia de Estruturas                                                                            
+T- Topografia
+T1 Topografia - Geómetra
+U- Urbanismo
+U1 Urbanismo - Gestão urbanística
+U2 Urbanismo - Planeamento territorial
+V- Engenharia AVAC
+W- Empreiteiro
+W1 Sub-Empreiteiro
+Z- Outros

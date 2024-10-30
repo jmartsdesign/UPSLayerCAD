@@ -1,0 +1,10 @@
+- -
+0 Estudo Previo
+1 Anteprojecto
+2 Projecto Base
+3 Projecto de Licenciamento
+4 Projecto de Execução
+5 Telas Finais
+6 Esteriominutas
+7 Estudos de Viabilidade
+8 Preparacao de Obra

@@ -1,0 +1,8 @@
+- -
+C Em Construção
+E Existente a Permanecer
+F Existente a Ser Movido (posição final)
+N Novo Trabalho
+O Existente a Ser Movido (posição original)
+R Existente para demolir
+T Trabalho Temporário

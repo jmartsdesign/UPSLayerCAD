@@ -1,0 +1,19 @@
+- -
+A Escala 1:1
+B Escala 1:5
+C Escala 1:10
+D Escala 1:20
+E Escala 1:50
+F Escala 1:100
+G Escala 1:200
+H Escala 1:500
+I Escala 1:1000
+J Escala 1:2000
+K Escala 1:5000
+L Escala 1:10000
+M Escala 1:20000
+N Escala 1:25000
+O Escala 1:50000
+P Escala 1:100000
+Q Escala 1:2
+R Escala 2:1
