@@ -1,0 +1,216 @@
+//
+//      AutoCAD menu file - C:\UPSETANormaCAD\UPSNormaCAD.mnu
+//
+
+***MENUGROUP=UPsETANormaCAD
+
+***BUTTONS1
+$M=$(if,$(eq,$(substr,$(getvar,cmdnames),1,5),GRIP_),$P0=ACAD.GRIPS $P0=*);
+$P0=SNAP $p0=* 
+^C^C
+^B
+^O
+^G
+^D
+^E
+^T
+
+***BUTTONS2
+$P0=SNAP $p0=* 
+
+***POP17
+**_UPSETANORMACAD
+               [UPsETANormaCAD]
+               [ < Carregar UPsETANormaCAD > ]^C^C^P(load "C:/UPSETANormaCAD/UPsETAnormaCAD.fas");UPSETANormaCAD 
+               [--]
+               [UPsNormaCAD]^C^C_UPSN 
+               [--]
+               [->0------Outros (_temp)]
+                 [Linha _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_line;
+                 [MultiLinha _temp]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_mline 
+                 [PolyLinha _temp]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_pline 
+                 [Poligono _temp]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_polygon 
+                 [Retangulo _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_rectang 
+                 [Arco _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_arc 
+                 [Circulo _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_circle 
+                 [Nuvem _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_revcloud 
+                 [SPlinha _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_spline 
+                 [Elipse _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_ellipse 
+                 [Boundary _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_boundary 
+                 [Hachura _temp]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_bhatch 
+                 [--]
+                 [Trocar para o Layer _temp]^C^C_matchproptp 
+                 [Copiar para o Layer _temp]^C^C_copytp 
+                 [Offset para o Layer _temp]^C^C_offsettp 
+                 [Apagar região do layer _temp]^C^C_eraseseltp 
+                 [Apagar objetos do layer _temp]^C^C_erasetp 
+                 [--]
+                 [Isolar o Layer _temp]^C^C_layisotp 
+                 [Ligar layer _temp]^C^C_ontp 
+                 [Desligar layer _temp]^C^C_offtp 
+                 [Descongelar layer _temp]^C^C_unfreezetp 
+                 [Congelar layer _temp]^C^C_freezetp 
+                 [Destrancar layer _temp]^C^C_unlocktp 
+                 [<-Trancar layer _temp]^C^C_locktp 
+               [->1-----Elementos estruturais substrutura]
+                 [11----Fundações]
+                 [12----Pilares]
+                 [13----Vigas]
+                 [17----Lajes bases de pavimentos]
+                 [<-19----Outros elementos estruturais]
+               [->2-----Elementos primários]
+                 [->200---Paredes]
+                   [Troca Layer]
+                   [Offset para Parede]
+                   [Apagar região do layer Parede]
+                   [Apagar objetos do layer Parede]
+                   [--]
+                   [Linha de Parede]
+                   [Poly Linha de Parede]
+                   [Retangulo de Parede]
+                   [Multi Linha de Parede]
+                   [<-Circulo de Parede]
+                 [230---Pavimentos]^C^C_UPSNpav 
+                 [24----Escadas]
+                 [25----Rampas]
+                 [26----Elevadores_Paltaformas]
+                 [<-27----Coberturas_Telhados]
+               [->3-----Elementos secundários]
+                 [<-36----Portas e Janelas]
+               [--]
+               [Sobre UPSNormaCAD]^C^C^PUPSNABOUT 
+               [Site UPSNormaCAD]^C^C_disnet 
+
+***TOOLBARS
+**TB_UPSNORMACAD_LAYER
+**TB_UPSNORMACAD_-_LAYERS
+               [_Toolbar("UPSNormaCAD - Layers", _Floating, _Show, 300, 170, 1)]
+               [_Button("Carregar UPsETANormaCAD", "load16.BMP", "load24.BMP")]^C^C^P(load "C:/UPSETANormaCAD/UPsETAnormaCAD.LSP");UPSETANormaCAD 
+               [--]
+               [_Button("UPsNormaCAD", "logo16.bmp", "logo24.bmp")]^C^C_UPSN 
+               [--]
+               [_Button("Layer Manager", "LAYMAN16.bmp", "LAYMAN24.bmp")]^C^Clayer 
+               [_Control(_Layer)]
+               [_Flyout("UPSNormaCAD - Layers 2", LAYPSL16, LAYPSL24, _OtherIcon, UPsETANormaCAD.UPSNormaCAD_LAYER2)]
+               [_Flyout("UPSNormaCAD - Layers 3", RCDATA_16_LAYERP, RCDATA_16_LAYERP, _OtherIcon, UPsETANormaCAD.UPSNormaCAD_LAYER3)]
+               [--]
+               [_Control(_Color)]
+               [--]
+               [_Control(_Linetype)]
+               [--]
+               [_Control(_Lineweight)]
+               [--]
+               [_Control(_PlotStyle)]
+
+**UPSNORMACAD_LAYER2
+**TB_UPSNORMACAD_LAYER2
+**TB_UPSNORMACAD_-_LAYERS_2
+               [_Toolbar("UPSNormaCAD - Layers 2", _Floating, _Hide, 310, 180, 1)]
+               [_Button("Passar a layer corrente", "LAYPSL16.bmp", "LAYPSL24.bmp")]^C^C^P(if (not C:NLC)(load "UPSLayers"))(princ);NLC ^P
+               [_Button("Seleccionar Layer a mudar", "laypcl16.bmp", "laypcl24.bmp")]^C^C^P(if (not C:NML)(load "UPSLayers"))(princ);NML ^P
+               [_Button("Mudar para layer corrente", "layccl16.bmp", "layccl24.bmp")]^C^C^P(if (not C:NMLC)(load "UPSLayers"))(princ);NMLC ^P
+               [_Button("Copy Pick Layer", "LAYCPL16.bmp", "LAYCPL24.bmp")]^C^C^P(if (not C:CPL)(load "UPSLayers"))(princ);CPL ^P
+               [_Button("Copy Typed Layer", "LAYCTL16.bmp", "LAYCTL24.bmp")]^C^C^P(if (not C:CTL)(load "UPSLayers"))(princ);CTL ^P
+               [_Button("Copy to Current Layer", "LAYCPC16.bmp", "LAYCPC24.bmp")]^C^C^P(if (not C:CPC)(load "UPSLayers"))(princ);CPC ^P
+               [_Button("Make NEW Layer", "LAYMNL16.bmp", "LAYMNL24.bmp")]^C^C^P(if (not C:MNL)(load "UPSLayers"))(princ);MNL ^P
+               [_Button("Offset change to CURRENT layer", "LAYOSC16.bmp", "LAYOSC24.bmp")]^C^C^P(if (not C:OSC)(load "UPSLayers"))(princ);OSC ^P
+               [_Button("Offset change to TYPED layer", "LAYOSL16.bmp", "LAYOSL24.bmp")]^C^C^P(if (not C:OSL)(load "UPSLayers"))(princ);OSL ^P
+               [--]
+               [_Button("Explode layer", "LAYLXP16.bmp", "LAYLXP24.bmp")]^C^C^P(if (not C:NXL)(load "UPSLayers"))(princ);NXL ^P
+               [_Button("Pick block entity change layer", "LAYPBL16.bmp", "LAYPBL24.bmp")]^C^C^P(if (not C:PBL)(load "UPSLayers"))(princ);PBL ^P
+               [_Button("Identifica a layer", "LAYPLL16.bmp", "LAYPLL24.bmp")]^C^C^P(if (not C:NIL)(load "UPSLayers"))(princ);NIL ^P
+
+**UPSNORMACAD_LAYER3
+**TB_UPSNORMACAD_LAYER3
+**TB_UPSNORMACAD_-_LAYERS_3
+               [_Toolbar("UPSNormaCAD - Layers 3", _Floating, _Hide, 310, 180, 1)]
+               [_Button("Layer Previous", "RCDATA_16_LAYERP", "RCDATA_16_LAYERP")]^C^C_LayerP 
+               [_Button("Pick Freeze Layer", "laypfl16.bmp", "laypfl24.bmp")]^C^C^P(if (not C:PFL)(load "UPSLayers"))(princ);PFL ^P
+               [_Button("Pick Freeze * ", "laypfa16.bmp", "laypfa24.bmp")]^C^C^P(if (not C:PFA)(load "UPSLayers"))(princ);PFA ^P
+               [_Button("Multiple Pick Freeze", "LAYMPF16.bmp", "LAYMPF24.bmp")]^C^C^P(if (not C:MPF)(load "UPSLayers"))(princ);MPF 
+               [_Button("Enhanced Multiple Pick Freeze", "LAYMLF16.bmp", "LAYMLF24.bmp")]^C^C^P(if (not C:MLF)(load "UPSLayers"))(princ);MLF 
+               [_Button("Pick freeze XREF layer", "LAYPFX16.bmp", "LAYPFX24.bmp")]^C^C^P(if (not C:PFX)(load "UPSLayers"))(princ);PFX ^P
+               [_Button("Pick freeze layer in an MVIEW", "LAYPFM16.bmp", "LAYPFM24.bmp")]^C^C^P(if (not C:PFM)(load "UPSLayers"))(princ);PFM ^P
+               [_Button("Pick freeze XREF layer in an MVIEW", "LAYPFXM16.bmp", "LAYPFXM24.bmp")]^C^C^P(if (not C:PFXM)(load "UPSLayers"))(princ);PFXM ^P
+               [--]
+               [_Button("Layer On *", "LAYON16.bmp", "LAYON24.bmp")]^C^C^P-LAYER ON * ;^P
+               [_Button("Pick Off Layer", "laypol16.bmp", "laypol24.bmp")]^C^C^P(if (not C:POL)(load "UPSLayers"))(princ);POL ^P
+               [_Button("Layer Thaw *", "LAYTHW16.bmp", "LAYTHW24.bmp")]^C^C^P-LAYER THAW * ;^P
+               [_Button("Layer Thaw and On *", "LAYTHO16.bmp", "LAYTHO24.bmp")]^C^C^P-LAYER THAW * ON * ;^P
+               [_Button("Pick Freeze and Off Layer", "LAYPOF16.bmp", "LAYPOF24.bmp")]^C^C^P(if (not C:POF)(load "UPSLayers"))(princ);POF ^P
+               [_Button("Trancar layer", "layplk16.bmp", "layplk24.bmp")]^C^C^P(if (not C:NTL)(load "UPSLayers"))(princ);NTL ^P
+               [_Button("Destrancar layer", "laypuk16.bmp", "laypuk24.bmp")]^C^C^P(if (not C:NDL)(load "UPSLayers"))(princ);NDL ^P
+
+**LINHAS_TEMP
+**TB_LINHAS_TEMP
+**TB_LINHAS_DE_CONSTRUÇÃO
+               [_Toolbar("Linhas de construção", _Floating, _Hide, 350, 180, 1)]
+               [_Button("Config 1", "layer1", "layer1")]^C^C_UPSNpar 
+               [_Button("Config 1 apontando objeto", "layersel1", "layersel1")]^C^C_layerPAR 
+               [--]
+               [_Button("Linha Parede", "line1", "line1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_line;
+               [_Button("MultiLinha Parede", "multline1", "multline1")]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_mline 
+               [_Button("PolyLinha Parede", "pline1", "pline1")]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_polygon 
+               [_Button("Poligono Parede", "polyogn1", "polyogn1")]^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_polygon 
+               [_Button("Retangulo Parede", "rectangle1", "rectangle1")]^C^C_linePAR;;_RECTANG: 
+               [_Button("Arco Parede", "arc1", "arc1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_arc;
+               [_Button("Circulo Parede", "circle1", "circle1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_circle 
+               [_Button("Nuvem Parede", "revcloud1", "revcloud1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_revcloud 
+               [_Button("SPlinha Parede", "spline1", "spline1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_spline 
+               [_Button("Elipse Parede", "ellipse1", "ellipse1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_ellipse 
+               [_Button("Boundary Parede", "boundary1", "boundary1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_boundary 
+               [_Button("Hachura Parede", "hatch1", "hatch1")]^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_bhatch 
+               [--]
+               [_Button("Trocar para o Layer Parede", "matchprop1", "matchprop1")]^C^C_matchpropPAR;
+               [_Button("Copiar para o Layer Parede", "copy1", "copy1")]^C^C_linePAR;;_copy;
+               [_Button("Offset para o Layer Parede", "offset1", "offset1")]^C^C_linePAR;;_offset;
+               [_Button("Apagar região do layer Parede", "erasesel1", "erasesel1")]^C^C_linePAR;;_erasesel;
+               [_Button("Apagar objetos do layer Parede", "erase1", "erase1")]^C^C_erase1 
+               [--]
+               [_Button("Isolar o Layer Parede", "layiso1", "layiso1")]^C^C_layisoPAR;
+               [_Button("Ligar layer Parede", "on1", "on1")]^C^C_layonPAR 
+               [_Button("Desligar layer Parede", "off1", "off1")]^C^C_off1 
+               [_Button("Descongelar layer Parede", "unfreeze1", "unfreeze1")]^C^C_unfreeze1 
+               [_Button("Congelar layer Parede", "freeze1", "freeze1")]^C^C_freeze1 
+               [_Button("Destrancar layer Parede", "unlock1", "unlock1")]^C^C_unlock1 
+               [_Button("Trancar layer Parede", "lock1", "lock1")]^C^C_lock1 
+
+**LINHAS_PAREDE
+**TB_LINHAS_PAREDE
+**TB_LINHAS_DE_PAREDES
+               [_Toolbar("Linhas de Paredes", _Floating, _Hide, 360, 180, 1)]
+               [_Button("Config 1", "layer1", "layer1")]^C^C_UPSNpar 
+               [_Button("Config 1 apontando objeto", "layersel1", "layersel1")]^C^C_layerPAR 
+               [--]
+               [_Button("Linha Parede", "line1", "line1")]^C^C_linePAR;;_line;
+               [_Button("MultiLinha Parede", "multline1", "multline1")]^C^C_linePAR;;_mline;
+               [_Button("PolyLinha Parede", "pline1", "pline1")]^C^C_linePAR;;_pline;
+               [_Button("Poligono Parede", "polyogn1", "polyogn1")]^C^C_linePAR;;_polygon;
+               [_Button("Retangulo Parede", "rectangle1", "rectangle1")]^C^C_linePAR;;_RECTANG: 
+               [_Button("Arco Parede", "arc1", "arc1")]^C^C_linePAR;;_arc;
+               [_Button("Circulo Parede", "circle1", "circle1")]^C^C_linePAR;;_circle;
+               [_Button("Nuvem Parede", "revcloud1", "revcloud1")]^C^C_linePAR;;_revcloud;
+               [_Button("SPlinha Parede", "spline1", "spline1")]^C^C_linePAR;;_spline;
+               [_Button("Elipse Parede", "ellipse1", "ellipse1")]^C^C_linePAR;;_ellipse;
+               [_Button("Boundary Parede", "boundary1", "boundary1")]^C^C_linePAR;;_boundary;
+               [_Button("Hachura Parede", "hatch1", "hatch1")]^C^C_linePAR;;_bhatch;
+               [--]
+               [_Button("Trocar para o Layer Parede", "matchprop1", "matchprop1")]^C^C_matchpropPAR;
+               [_Button("Copiar para o Layer Parede", "copy1", "copy1")]^C^C_linePAR;;_copy;
+               [_Button("Offset para o Layer Parede", "offset1", "offset1")]^C^C_linePAR;;_offset;
+               [_Button("Apagar região do layer Parede", "erasesel1", "erasesel1")]^C^C_linePAR;;_erasesel;
+               [_Button("Apagar objetos do layer Parede", "erase1", "erase1")]^C^C_erase1 
+               [--]
+               [_Button("Isolar o Layer Parede", "layiso1", "layiso1")]^C^C_layisoPAR;
+               [_Button("Ligar layer Parede", "on1", "on1")]^C^C_layonPAR 
+               [_Button("Desligar layer Parede", "off1", "off1")]^C^C_off1 
+               [_Button("Descongelar layer Parede", "unfreeze1", "unfreeze1")]^C^C_unfreeze1 
+               [_Button("Congelar layer Parede", "freeze1", "freeze1")]^C^C_freeze1 
+               [_Button("Destrancar layer Parede", "unlock1", "unlock1")]^C^C_unlock1 
+               [_Button("Trancar layer Parede", "lock1", "lock1")]^C^C_lock1 
+
+
+//
+//      End of AutoCAD menu file - C:\UPSETANormaCAD\UPSNormaCAD.mnu
+//
+
