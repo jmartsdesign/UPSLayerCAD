@@ -1,0 +1,13 @@
+2----- Elementos primários
+23---- Pavimentos Galerias Mezaninos Balcões
+230--- Pavimentos
+231--- Acabamentos de pavimentos Galerias Mezaninos Balcões
+232--- Pavimentos de laje Pavimentos monolíticos
+233--- Extremidades das lajes
+234--- Pavimentos compostos montados
+235--- Pavimentos exteriores Terraços Coberturas acessíveis
+236--- Bailéus Alpendres
+237--- Balcões Galerias
+238--- Varandas Varandins
+239--- Outros pavimentos Galerias Mezaninos Balcões
+29---- Outros elementos primários

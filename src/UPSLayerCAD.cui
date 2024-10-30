@@ -1,0 +1,1982 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose customization and migration functionality.
+If you need to change information in the customization file, use the Customize User Interface dialog box in the product.
+To access the Customize User Interface dialog box, click the Tools menu > Customize > Interface, or enter CUI on the command line. 
+-->
+<CustSection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FileVersion MajorVersion="0" MinorVersion="1" IncrementalVersion="3" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="UPSETALAYERCAD">
+    <MacroGroup Name="UPsETALayerCADMacros">
+      <MenuMacro UID="MMU_0002">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0001">Button Macro 1</Name>
+          <Command>$M=$(if,$(eq,$(substr,$(getvar,cmdnames),1,5),GRIP_),$P0=ACAD.GRIPS $P0=*); </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0004">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0002">Button Macro 2</Name>
+          <Command>$P0=SNAP $p0=* </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0006">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0003">Button Macro 3</Name>
+          <Command>^C^C </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0008">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0004">Button Macro 4</Name>
+          <Command>^B </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0010">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0005">Button Macro 5</Name>
+          <Command>^O </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0012">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0006">Button Macro 6</Name>
+          <Command>^G </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0014">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0007">Button Macro 7</Name>
+          <Command>^D </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0016">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0008">Button Macro 8</Name>
+          <Command>^E </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0018">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0009">Button Macro 9</Name>
+          <Command>^T </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0020">
+        <Macro type="Legacy">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0010">Button Macro 10</Name>
+          <Command>$P0=SNAP $p0=* </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0022">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0012">&lt; Carregar UPsETALayerCAD &gt;</Name>
+          <Command>^C^C^P(load "C:/UPSETALayerCAD/UPsETALayerCAD.LSP");UPSETALayerCAD </Command>
+          <SmallImage Name="load16.BMP" />
+          <LargeImage Name="load24.BMP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0024">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0014">UPsLayerCAD</Name>
+          <Command>^C^C_UPSL </Command>
+          <SmallImage Name="logo16.bmp" />
+          <LargeImage Name="logo24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0026">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0017">Linha _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_line; </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0028">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0019">MultiLinha _temp</Name>
+          <Command>^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_mline </Command>
+          <SmallImage Name="multline1" />
+          <LargeImage Name="multline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0030">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0021">PolyLinha _temp</Name>
+          <Command>^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_pline  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0032">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0023">Poligono _temp</Name>
+          <Command>^C^C^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_polygon  </Command>
+          <SmallImage Name="pline1" />
+          <LargeImage Name="pline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0034">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0025">Retangulo _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_rectang </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0036">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0027">Arco _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_arc  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0038">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0029">Circulo _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_circle  </Command>
+          <SmallImage Name="circle1" />
+          <LargeImage Name="circle1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0040">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0031">Nuvem _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_revcloud  </Command>
+          <SmallImage Name="revcloud1" />
+          <LargeImage Name="revcloud1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0042">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0033">SPlinha _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_spline  </Command>
+          <SmallImage Name="spline1" />
+          <LargeImage Name="spline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0044">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0035">Elipse _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_ellipse </Command>
+          <SmallImage Name="ellipse1" />
+          <LargeImage Name="ellipse1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0046">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0037">Boundary _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_boundary </Command>
+          <SmallImage Name="boundary1" />
+          <LargeImage Name="boundary1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0048">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0039">Hachura _temp</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_bhatch </Command>
+          <SmallImage Name="hatch1" />
+          <LargeImage Name="hatch1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0050">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0041">Trocar para o Layer _temp</Name>
+          <Command>^C^C_matchproptp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0052">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0043">Copiar para o Layer _temp</Name>
+          <Command>^C^C_copytp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0054">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0045">Offset para o Layer _temp</Name>
+          <Command>^C^C_offsettp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0056">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0047">Apagar região do layer _temp</Name>
+          <Command>^C^C_eraseseltp  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0058">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0049">Apagar objetos do layer _temp</Name>
+          <Command>^C^C_erasetp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0060">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0051">Isolar o Layer _temp</Name>
+          <Command>^C^C_layisotp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0062">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0053">Ligar layer _temp</Name>
+          <Command>^C^C_ontp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0064">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0055">Desligar layer _temp</Name>
+          <Command>^C^C_offtp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0066">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0057">Descongelar layer _temp</Name>
+          <Command>^C^C_unfreezetp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0068">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0059">Congelar layer _temp</Name>
+          <Command>^C^C_freezetp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0070">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0061">Destrancar layer _temp</Name>
+          <Command>^C^C_unlocktp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0072">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0063">Trancar layer _temp</Name>
+          <Command>^C^C_locktp </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0074">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0066">11----Fundações</Name>
+          <Command />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0076">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0083">230---Pavimentos</Name>
+          <Command>^C^C_UPSNpav </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0078">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0091">Sobre UPSLayerCAD</Name>
+          <Command>^C^C^PUPLABOUT </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0080">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0093">Site UPSLayerCAD</Name>
+          <Command>^C^C_disnet </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0082">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0098">Layer Manager</Name>
+          <Command>^C^Clayer </Command>
+          <SmallImage Name="LAYMAN16.bmp" />
+          <LargeImage Name="LAYMAN24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0084">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0103">Passar a layer corrente</Name>
+          <Command>^c^cNLC </Command>
+          <SmallImage Name="LAYPSL16.bmp" />
+          <LargeImage Name="LAYPSL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0086">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0105">Seleccionar Layer a mudar</Name>
+          <Command>^c^cNML </Command>
+          <SmallImage Name="laypcl16.bmp" />
+          <LargeImage Name="laypcl24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0088">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0107">Mudar para layer corrente</Name>
+          <Command>^c^c^p(if (not C:NMLC)(load "UPSLayers"))(princ);NMLC ^P </Command>
+          <SmallImage Name="layccl16.bmp" />
+          <LargeImage Name="layccl24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0090">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0109">Copy Pick Layer</Name>
+          <Command>^c^c^p(if (not C:CPL)(load "UPSLayers"))(princ);CPL ^P </Command>
+          <SmallImage Name="LAYCPL16.bmp" />
+          <LargeImage Name="LAYCPL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0092">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0111">Copy Typed Layer</Name>
+          <Command>^c^c^p(if (not C:CTL)(load "UPSLayers"))(princ);CTL ^P </Command>
+          <SmallImage Name="LAYCTL16.bmp" />
+          <LargeImage Name="LAYCTL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0094">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0113">Copy to Current Layer</Name>
+          <Command>^c^c^p(if (not C:CPC)(load "UPSLayers"))(princ);CPC ^P </Command>
+          <SmallImage Name="LAYCPC16.bmp" />
+          <LargeImage Name="LAYCPC24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0096">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0115">Make NEW Layer</Name>
+          <Command>^c^c^p(if (not C:MNL)(load "UPSLayers"))(princ);MNL ^P </Command>
+          <SmallImage Name="LAYMNL16.bmp" />
+          <LargeImage Name="LAYMNL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0098">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0117">Offset change to CURRENT layer</Name>
+          <Command>^c^c^p(if (not C:OSC)(load "UPSLayers"))(princ);OSC ^P </Command>
+          <SmallImage Name="LAYOSC16.bmp" />
+          <LargeImage Name="LAYOSC24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0100">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0119">Offset change to TYPED layer</Name>
+          <Command>^c^c^p(if (not C:OSL)(load "UPSLayers"))(princ);OSL ^P </Command>
+          <SmallImage Name="LAYOSL16.bmp" />
+          <LargeImage Name="LAYOSL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0102">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0121">Explode layer</Name>
+          <Command>^c^c^p(if (not C:NXL)(load "UPSLayers"))(princ);NXL ^P </Command>
+          <SmallImage Name="LAYLXP16.bmp" />
+          <LargeImage Name="LAYLXP24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0104">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0123">Pick block entity change layer</Name>
+          <Command>^c^c^p(if (not C:PBL)(load "UPSLayers"))(princ);PBL ^P </Command>
+          <SmallImage Name="LAYPBL16.bmp" />
+          <LargeImage Name="LAYPBL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0106">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0125">Identifica a layer</Name>
+          <Command>^c^c^p(if (not C:NIL)(load "UPSLayers"))(princ);NIL ^P </Command>
+          <SmallImage Name="LAYPLL16.bmp" />
+          <LargeImage Name="LAYPLL24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0108">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0128">Layer Previous</Name>
+          <Command>^C^C_LayerP </Command>
+          <SmallImage Name="RCDATA_16_LAYERP" />
+          <LargeImage Name="RCDATA_16_LAYERP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0110">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0130">Pick Freeze Layer</Name>
+          <Command>^c^c^p(if (not C:PFL)(load "UPSLayers"))(princ);PFL ^P </Command>
+          <SmallImage Name="laypfl16.bmp" />
+          <LargeImage Name="laypfl24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0112">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0132">Pick Freeze *</Name>
+          <Command>^c^c^p(if (not C:PFA)(load "UPSLayers"))(princ);PFA ^P </Command>
+          <SmallImage Name="laypfa16.bmp" />
+          <LargeImage Name="laypfa24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0114">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0134">Multiple Pick Freeze</Name>
+          <Command>^c^c^p(if (not C:MPF)(load "UPSLayers"))(princ);MPF ^ </Command>
+          <SmallImage Name="LAYMPF16.bmp" />
+          <LargeImage Name="LAYMPF24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0116">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0136">Enhanced Multiple Pick Freeze</Name>
+          <Command>^c^c^p(if (not C:MLF)(load "UPSLayers"))(princ);MLF ^ </Command>
+          <SmallImage Name="LAYMLF16.bmp" />
+          <LargeImage Name="LAYMLF24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0118">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0138">Pick freeze XREF layer</Name>
+          <Command>^c^c^p(if (not C:PFX)(load "UPSLayers"))(princ);PFX ^P </Command>
+          <SmallImage Name="LAYPFX16.bmp" />
+          <LargeImage Name="LAYPFX24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0120">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0140">Pick freeze layer in an MVIEW</Name>
+          <Command>^c^c^p(if (not C:PFM)(load "UPSLayers"))(princ);PFM ^P </Command>
+          <SmallImage Name="LAYPFM16.bmp" />
+          <LargeImage Name="LAYPFM24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0122">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0142">Pick freeze XREF layer in an MVIEW</Name>
+          <Command>^c^c^p(if (not C:PFXM)(load "UPSLayers"))(princ);PFXM ^P </Command>
+          <SmallImage Name="LAYPFXM16.bmp" />
+          <LargeImage Name="LAYPFXM24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0124">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0144">Layer On *</Name>
+          <Command>^C^C^P-LAYER ON * ;^P </Command>
+          <SmallImage Name="LAYON16.bmp" />
+          <LargeImage Name="LAYON24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0126">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0146">Pick Off Layer</Name>
+          <Command>^c^c^p(if (not C:POL)(load "UPSLayers"))(princ);POL ^P </Command>
+          <SmallImage Name="laypol16.bmp" />
+          <LargeImage Name="laypol24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0128">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0148">Layer Thaw *</Name>
+          <Command>^C^C^P-LAYER THAW * ;^P </Command>
+          <SmallImage Name="LAYTHW16.bmp" />
+          <LargeImage Name="LAYTHW24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0130">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0150">Layer Thaw and On *</Name>
+          <Command>^C^C^P-LAYER THAW * ON * ;^P </Command>
+          <SmallImage Name="LAYTHO16.bmp" />
+          <LargeImage Name="LAYTHO24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0132">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0152">Pick Freeze and Off Layer</Name>
+          <Command>^c^c^p(if (not C:POF)(load "UPSLayers"))(princ);POF ^P </Command>
+          <SmallImage Name="LAYPOF16.bmp" />
+          <LargeImage Name="LAYPOF24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0134">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0154">Trancar layer</Name>
+          <Command>^c^c^p(if (not C:NTL)(load "UPSLayers"))(princ);NTL ^P </Command>
+          <SmallImage Name="layplk16.bmp" />
+          <LargeImage Name="layplk24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0136">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0156">Destrancar layer</Name>
+          <Command>^c^c^p(if (not C:NDL)(load "UPSLayers"))(princ);NDL ^P </Command>
+          <SmallImage Name="laypuk16.bmp" />
+          <LargeImage Name="laypuk24.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0138">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0159">Config 1</Name>
+          <Command>^C^C_UPSNpar </Command>
+          <SmallImage Name="layer1" />
+          <LargeImage Name="layer1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0140">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0161">Config 1 apontando objeto</Name>
+          <Command>^C^C_layerPAR  </Command>
+          <SmallImage Name="layersel1" />
+          <LargeImage Name="layersel1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0142">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0163">Linha Parede</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_line;  </Command>
+          <SmallImage Name="line1" />
+          <LargeImage Name="line1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0144">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0168">Retangulo Parede</Name>
+          <Command>^C^C_linePAR;;_RECTANG:  </Command>
+          <SmallImage Name="rectangle1" />
+          <LargeImage Name="rectangle1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0146">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0170">Arco Parede</Name>
+          <Command>^C^C^P-LAYER M A-0-----E-_temp;c;9;;p n;;;_arc;  </Command>
+          <SmallImage Name="arc1" />
+          <LargeImage Name="arc1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0148">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0178">Trocar para o Layer Parede</Name>
+          <Command>^C^C_matchpropPAR; </Command>
+          <SmallImage Name="matchprop1" />
+          <LargeImage Name="matchprop1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0150">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0180">Copiar para o Layer Parede</Name>
+          <Command>^C^C_linePAR;;_copy; </Command>
+          <SmallImage Name="copy1" />
+          <LargeImage Name="copy1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0152">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0182">Offset para o Layer Parede</Name>
+          <Command>^C^C_linePAR;;_offset; </Command>
+          <SmallImage Name="offset1" />
+          <LargeImage Name="offset1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0154">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0184">Apagar região do layer Parede</Name>
+          <Command>^C^C_linePAR;;_erasesel;  </Command>
+          <SmallImage Name="erasesel1" />
+          <LargeImage Name="erasesel1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0156">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0186">Apagar objetos do layer Parede</Name>
+          <Command>^C^C_erase1 </Command>
+          <SmallImage Name="erase1" />
+          <LargeImage Name="erase1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0158">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0188">Isolar o Layer Parede</Name>
+          <Command>^C^C_layisoPAR; </Command>
+          <SmallImage Name="layiso1" />
+          <LargeImage Name="layiso1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0160">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0190">Ligar layer Parede</Name>
+          <Command>^C^C_layonPAR </Command>
+          <SmallImage Name="on1" />
+          <LargeImage Name="on1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0162">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0192">Desligar layer Parede</Name>
+          <Command>^C^C_off1 </Command>
+          <SmallImage Name="off1" />
+          <LargeImage Name="off1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0164">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0194">Descongelar layer Parede</Name>
+          <Command>^C^C_unfreeze1 </Command>
+          <SmallImage Name="unfreeze1" />
+          <LargeImage Name="unfreeze1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0166">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0196">Congelar layer Parede</Name>
+          <Command>^C^C_freeze1 </Command>
+          <SmallImage Name="freeze1" />
+          <LargeImage Name="freeze1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0168">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0198">Destrancar layer Parede</Name>
+          <Command>^C^C_unlock1 </Command>
+          <SmallImage Name="unlock1" />
+          <LargeImage Name="unlock1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0170">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0200">Trancar layer Parede</Name>
+          <Command>^C^C_lock1 </Command>
+          <SmallImage Name="lock1" />
+          <LargeImage Name="lock1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0172">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0205">Linha Parede</Name>
+          <Command>^C^C_linePAR;;_line;  </Command>
+          <SmallImage Name="line1" />
+          <LargeImage Name="line1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0174">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0207">MultiLinha Parede</Name>
+          <Command>^C^C_linePAR;;_mline;  </Command>
+          <SmallImage Name="multline1" />
+          <LargeImage Name="multline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0176">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0209">PolyLinha Parede</Name>
+          <Command>^C^C_linePAR;;_pline;  </Command>
+          <SmallImage Name="pline1" />
+          <LargeImage Name="pline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0178">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0211">Poligono Parede</Name>
+          <Command>^C^C_linePAR;;_polygon;  </Command>
+          <SmallImage Name="polyogn1" />
+          <LargeImage Name="polyogn1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0180">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0214">Arco Parede</Name>
+          <Command>^C^C_linePAR;;_arc;  </Command>
+          <SmallImage Name="arc1" />
+          <LargeImage Name="arc1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0182">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0216">Circulo Parede</Name>
+          <Command>^C^C_linePAR;;_circle;  </Command>
+          <SmallImage Name="circle1" />
+          <LargeImage Name="circle1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0184">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0218">Nuvem Parede</Name>
+          <Command>^C^C_linePAR;;_revcloud;  </Command>
+          <SmallImage Name="revcloud1" />
+          <LargeImage Name="revcloud1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0186">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0220">SPlinha Parede</Name>
+          <Command>^C^C_linePAR;;_spline;  </Command>
+          <SmallImage Name="spline1" />
+          <LargeImage Name="spline1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0188">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0222">Elipse Parede</Name>
+          <Command>^C^C_linePAR;;_ellipse; </Command>
+          <SmallImage Name="ellipse1" />
+          <LargeImage Name="ellipse1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0190">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0224">Boundary Parede</Name>
+          <Command>^C^C_linePAR;;_boundary; </Command>
+          <SmallImage Name="boundary1" />
+          <LargeImage Name="boundary1" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0192">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0226">Hachura Parede</Name>
+          <Command>^C^C_linePAR;;_bhatch; </Command>
+          <SmallImage Name="hatch1" />
+          <LargeImage Name="hatch1" />
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot />
+      <DigitizerButtonRoot>
+        <ButtonGroup UID="BGU_0001">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS1</Alias>
+          <ButtonItem BlankLine="false" UID="BIU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0002" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0004" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0006" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0008" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0010" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0012" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0014" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0016" />
+            </MenuItem>
+          </ButtonItem>
+          <ButtonItem BlankLine="false" UID="BIU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0018" />
+            </MenuItem>
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>BUTTONS2</Alias>
+          <ButtonItem BlankLine="false" UID="BIU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0020" />
+            </MenuItem>
+          </ButtonItem>
+        </ButtonGroup>
+      </DigitizerButtonRoot>
+      <PopMenuRoot>
+        <PopMenu hasDiesel="false" UID="PMU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>POP17</Alias>
+          <Alias>_UPsETALayerCAD</Alias>
+          <Name xlate="true" UID="XLS_0011">UPsETALayerCAD</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0013" xlate="true">&lt; Carregar UPsETALayerCAD &gt;</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0022" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0015" xlate="true">UPsLayerCAD</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0024" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="PMU_0004" UID="PMRU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0006" UID="PMRU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0008" UID="PMRU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="PMU_0012" UID="PMRU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0052">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0053">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0092" xlate="true">Sobre UPSLayerCAD</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0078" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0054">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0094" xlate="true">Site UPSLayerCAD</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0080" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0004">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0016">0------Outros (_temp)</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0018" xlate="true">Linha _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0026" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0020" xlate="true">MultiLinha _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0028" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0022" xlate="true">PolyLinha _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0030" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0024" xlate="true">Poligono _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0032" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0026" xlate="true">Retangulo _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0034" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0028" xlate="true">Arco _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0036" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0011">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0030" xlate="true">Circulo _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0038" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0012">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0032" xlate="true">Nuvem _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0040" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0013">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0034" xlate="true">SPlinha _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0042" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0014">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0036" xlate="true">Elipse _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0044" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0015">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0038" xlate="true">Boundary _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0046" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0016">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0040" xlate="true">Hachura _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0048" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0017">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0018">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0042" xlate="true">Trocar para o Layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0050" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0019">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0044" xlate="true">Copiar para o Layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0052" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0020">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0046" xlate="true">Offset para o Layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0054" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0021">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0048" xlate="true">Apagar região do layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0056" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0022">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0050" xlate="true">Apagar objetos do layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0058" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0023">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0024">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0052" xlate="true">Isolar o Layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0060" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0025">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0054" xlate="true">Ligar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0062" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0026">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0056" xlate="true">Desligar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0064" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0027">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0058" xlate="true">Descongelar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0066" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0028">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0060" xlate="true">Congelar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0068" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0029">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0062" xlate="true">Destrancar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0070" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0030">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0064" xlate="true">Trancar layer _temp</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0072" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0006">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0065">1-----Elementos estruturais substrutura</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0031">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0067" xlate="true">11----Fundações</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0032">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0068" xlate="true">12----Pilares</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0033">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0069" xlate="true">13----Vigas</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0034">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0070" xlate="true">17----Lajes bases de pavimentos</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0035">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0071" xlate="true">19----Outros elementos estruturais</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0008">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0072">2-----Elementos primários</Name>
+          <PopMenuRef pUID="PMU_0010" UID="PMRU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0046">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0084" xlate="true">230---Pavimentos</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0076" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0047">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0085" xlate="true">24----Escadas</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0048">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0086" xlate="true">25----Rampas</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0049">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0087" xlate="true">26----Elevadores_Paltaformas</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0050">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0088" xlate="true">27----Coberturas_Telhados</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0010">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0073">200---Paredes</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0036">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0074" xlate="true">Troca Layer</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0037">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0075" xlate="true">Offset para Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0038">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0076" xlate="true">Apagar região do layer Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0039">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0077" xlate="true">Apagar objetos do layer Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0040">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0041">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0078" xlate="true">Linha de Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0042">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0079" xlate="true">Poly Linha de Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0043">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0080" xlate="true">Retangulo de Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0044">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0081" xlate="true">Multi Linha de Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0045">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0082" xlate="true">Circulo de Parede</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0012">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0089">3-----Elementos secundários</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0051">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0090" xlate="true">36----Portas e Janelas</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0074" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+      </PopMenuRoot>
+      <ToolbarRoot>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="show" xval="300" yval="170" rows="1" UID="TBU_0002">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>TB_UPSLayerCAD_LAYER</Alias>
+          <Alias>UPSLayerCAD_-_Layers</Alias>
+          <Name xlate="true" UID="XLS_0095">UPSLayerCAD - Layers</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0096">Carregar UPsETALayerCAD</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0022" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0097">UPsNLayerCAD</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0024" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0099">Layer Manager</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0082" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarControl Control="LayerControl" UID="TBCU_0001">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="UPSLayerCAD_LAYER2" UID="TBFU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <FlyoutName xlate="true" UID="XLS_0100">UPSLayerCAD - Layers 2</FlyoutName>
+            <SmallImage Name="LAYPSL16" />
+            <LargeImage Name="LAYPSL24" />
+          </ToolbarFlyout>
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="UPSLayerCAD_LAYER3" UID="TBFU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <FlyoutName xlate="true" UID="XLS_0101">UPSLayerCAD - Layers 3</FlyoutName>
+            <SmallImage Name="RCDATA_16_LAYERP" />
+            <LargeImage Name="RCDATA_16_LAYERP" />
+          </ToolbarFlyout>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0006">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarControl Control="OPTColorControl" UID="TBCU_0002">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0007">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarControl Control="LineTypeControl" UID="TBCU_0003">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0008">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarControl Control="LineWeightControl" UID="TBCU_0004">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0009">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarControl Control="PlotStyleControl" UID="TBCU_0005">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarControl>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" xval="310" yval="180" rows="1" UID="TBU_0004">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>UPSLayerCAD_LAYER2</Alias>
+          <Alias>TB_UPSLayerCAD_LAYER2</Alias>
+          <Alias>UPSLayerCAD_-_Layers_2</Alias>
+          <Name xlate="true" UID="XLS_0102">UPSLayerCAD - Layers 2</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0010">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0104">Passar a layer corrente</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0084" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0011">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0106">Seleccionar Layer a mudar</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0086" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0012">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0108">Mudar para layer corrente</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0088" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0013">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0110">Copy Pick Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0090" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0014">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0112">Copy Typed Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0092" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0015">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0114">Copy to Current Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0094" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0016">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0116">Make NEW Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0096" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0017">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0118">Offset change to CURRENT layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0098" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0018">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0120">Offset change to TYPED layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0100" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0019">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0020">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0122">Explode layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0102" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0021">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0124">Pick block entity change layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0104" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0022">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0126">Identifica a layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0106" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" xval="310" yval="180" rows="1" UID="TBU_0006">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>UPSLayerCAD_LAYER3</Alias>
+          <Alias>TB_UPSLayerCAD_LAYER3</Alias>
+          <Alias>UPSLayerCAD_-_Layers_3</Alias>
+          <Name xlate="true" UID="XLS_0127">UPSLayerCAD - Layers 3</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0023">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0129">Layer Previous</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0108" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0024">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0131">Pick Freeze Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0110" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0025">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0133">Pick Freeze *</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0112" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0026">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0135">Multiple Pick Freeze</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0114" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0027">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0137">Enhanced Multiple Pick Freeze</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0116" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0028">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0139">Pick freeze XREF layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0118" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0029">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0141">Pick freeze layer in an MVIEW</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0120" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0030">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0143">Pick freeze XREF layer in an MVIEW</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0122" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0031">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0032">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0145">Layer On *</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0124" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0033">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0147">Pick Off Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0126" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0034">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0149">Layer Thaw *</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0128" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0035">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0151">Layer Thaw and On *</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0130" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0036">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0153">Pick Freeze and Off Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0132" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0037">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0155">Trancar layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0134" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0038">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0157">Destrancar layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0136" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" xval="350" yval="180" rows="1" UID="TBU_0008">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>LINHAS_TEMP</Alias>
+          <Alias>TB_LINHAS_TEMP</Alias>
+          <Alias>Linhas_de_construção</Alias>
+          <Name xlate="true" UID="XLS_0158">Linhas de construção</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0039">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0160">Config 1</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0138" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0040">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0162">Config 1 apontando objeto</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0140" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0041">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0042">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0164">Linha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0142" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0043">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0165">MultiLinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0028" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0044">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0166">PolyLinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0032" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0045">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0167">Poligono Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0032" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0046">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0169">Retangulo Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0144" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0047">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0171">Arco Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0146" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0048">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0172">Circulo Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0038" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0049">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0173">Nuvem Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0040" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0050">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0174">SPlinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0042" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0051">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0175">Elipse Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0044" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0052">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0176">Boundary Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0046" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0053">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0177">Hachura Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0048" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0054">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0055">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0179">Trocar para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0148" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0056">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0181">Copiar para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0150" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0057">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0183">Offset para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0152" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0058">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0185">Apagar região do layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0154" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0059">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0187">Apagar objetos do layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0156" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0060">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0061">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0189">Isolar o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0158" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0062">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0191">Ligar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0160" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0063">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0193">Desligar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0162" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0064">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0195">Descongelar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0164" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0065">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0197">Congelar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0166" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0066">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0199">Destrancar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0168" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0067">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0201">Trancar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0170" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" xval="360" yval="180" rows="1" UID="TBU_0010">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <Alias>LINHAS_Parede</Alias>
+          <Alias>TB_LINHAS_Parede</Alias>
+          <Alias>Linhas_de_Paredes</Alias>
+          <Name xlate="true" UID="XLS_0202">Linhas de Paredes</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0068">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0203">Config 1</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0138" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0069">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0204">Config 1 apontando objeto</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0140" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0070">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0071">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0206">Linha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0172" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0072">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0208">MultiLinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0174" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0073">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0210">PolyLinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0176" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0074">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0212">Poligono Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0178" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0075">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0213">Retangulo Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0144" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0076">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0215">Arco Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0180" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0077">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0217">Circulo Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0182" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0078">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0219">Nuvem Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0184" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0079">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0221">SPlinha Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0186" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0080">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0223">Elipse Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0188" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0081">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0225">Boundary Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0190" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0082">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0227">Hachura Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0192" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0083">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0084">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0228">Trocar para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0148" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0085">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0229">Copiar para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0150" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0086">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0230">Offset para o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0152" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0087">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0231">Apagar região do layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0154" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0088">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0232">Apagar objetos do layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0156" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0089">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0090">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0233">Isolar o Layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0158" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0091">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0234">Ligar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0160" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0092">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0235">Desligar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0162" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0093">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0236">Descongelar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0164" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0094">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0237">Congelar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0166" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0095">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0238">Destrancar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0168" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0096">
+            <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0239">Trancar layer Parede</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0170" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+      </ToolbarRoot>
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot />
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>

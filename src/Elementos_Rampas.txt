@@ -1,0 +1,10 @@
+2----- Elementos primários
+25---- Rampas
+250--- Rampas gerais
+251--- Acabamentos de rampas
+252--- Estrutura de rampas
+253--- Suportes de rampas
+254--- Balaustradas de rampas
+255--- Corrimãos de rampas
+259--- Outras rampas
+29---- Outros elementos primários

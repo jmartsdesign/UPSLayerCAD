@@ -1,0 +1,24 @@
+2----- Elementos primários
+27---- Coberturas e telhados
+270--- Coberturas gerais
+2700-- Coberturas isolantes
+2701-- Coberturas em arco
+2702-- Coberturas em colmo
+2703-- Coberturas autoportantes
+2704-- Coberturas tensionadas
+2705-- Coberturas para piscinas
+271--- Acabamentos de coberturas
+272--- Elementos de composição de coberturas_telhados
+2720-- Algerozes_goteiras
+2721-- Beirados
+2722-- Caleiras
+2723-- Cimalhas
+2724-- Cornijas
+2725-- Telhas
+273--- Vãos aberturas nas coberturas
+2730-- Clarabóia
+2731-- Chaminé
+274--- Tectos falsos
+2740-- Estrutura de tectos falsos
+279--- Outras coberturas telhados
+29---- Outros elementos primários

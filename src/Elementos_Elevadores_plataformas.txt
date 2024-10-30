@@ -1,0 +1,10 @@
+2----- Elementos primários
+26---- Elevadores e plataformas
+260--- Elevador ou ascensor
+261--- Elevadores de escada para cadeiras de rodas
+262--- Montacargas
+263--- Plataformas gerais
+264--- Plataformas elevatórias
+265--- Plataformas móveis modulares
+269--- Outros elevadores Plataformas
+29---- Outros elementos primários

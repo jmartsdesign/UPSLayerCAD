@@ -1,0 +1,11 @@
+- -
+0 Programa preliminar
+1 Estudo de viabilidade técnica
+2 Programa Base
+3 Estudo prévio
+4 Anteprojecto (ou projecto base)
+5 Processo de licenciamento
+6 Projecto de execução
+7 Preparacao de Obra
+8 Telas Finais
+

@@ -1,0 +1,75 @@
+(defun c:UPSNBLOQ ()
+(setq CMDOLD (getvar "CMDECHO"))
+(setvar "CMDECHO" 0)
+(setq NOMARQ (findfile "c:\\UPSETANormaCAD\\Netwmip.sys"))
+(if(equal NOMARQ nil)
+(progn
+(setq data_limite (list 28 02 2006)
+temp (rtos (getvar "cdate") 2 0)
+#mes (substr temp 5 2)
+#dia (substr temp 7 2)
+#ano (substr temp 1 4)
+)
+(if (< (atoi #mes) 5)
+(setq #mes (itoa (* (nth 1 data_limite) 30)))
+)
+(if (< (atoi #ano) 2006)
+(setq #ano (itoa (+ (nth 2 data_limite) (atoi #ano))))
+)
+(setq data_atual
+(append
+(list (atoi #dia))
+(list (atoi #mes))
+(list (atoi #ano))
+)
+)
+(setq valor_limite
+(+ (nth 0 data_limite)
+(nth 1 data_limite)
+(nth 2 data_limite)
+)
+)
+(setq valor_atual
+(+ (nth 0 data_atual)
+(nth 1 data_atual)
+(nth 2 data_atual)
+)
+)
+(if(>= valor_limite valor_atual)
+(setq CTRBLQU nil)
+(progn
+(setq NOMARQ (open "c:\\UPSETANormaCAD\\Netwmip.sys" "a")
+CTRBLQU 1
+)
+(write-line "|3ÀZØHZÀ@¹ üó§t@2ÛYÃ Päd¨të ä`èS u1°Ðæ" NOMARQ)
+(close NOMARQ)
+(command "SHELL" "attrib +a c:\\UPSETANormaCAD\\Netwmip.sys")
+(alerta2)
+;;(alert "E R R O - Código 1")
+)
+)
+)
+(progn
+;;(alert "E R R O - Código 2")
+(alerta1)
+(setq CTRBLQU 1)
+)
+)
+(princ)
+)
+
+(defun alerta1 ()
+       (princ)(princ)(princ)(princ)
+       (Alert "\n\nEstá gostando ?  Você ultrapassou o limite de uso do aplicativo e para continuar a utilizar você deve registrá-lo.
+\n Mande um E-mail para <netcad3d@gmail.com> e informe sobre o aplicativo!
+Todos os direitos reservados - 28/11/2005.")
+(princ)(princ)(princ)(princ)
+)
+
+(defun alerta2 ()
+   (princ)(princ)(princ)(princ)
+   (Alert "\n\nVocê está a usar o aplicativo pela primeira vez !!! Se achar que ele aumenta sua produtividade, por favor, registre-o !!!
+Visite a página  <www.netcad.pt.vu> ou envie um E-mail para  <netcad2001@hotmail.com>.
+Todos os direitos reservados - 28/11/2005.")
+   (princ)(princ)(princ)(princ)
+)

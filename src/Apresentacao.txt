@@ -1,0 +1,27 @@
+-- -                                                                                              
+A- Áreas                                                                                          
+B- Molduras e limites do desenho (Layout)                                                         
+C- Linhas, polilinhas e multilinhas                                                               
+D- Dimensões, cotagens (Model)                                                                    
+E- Elementos gráficos gerais                                                                      
+F- Molduras e limites (frames, wipeouts)                                                          
+G- Grelhas (grelhas de construção, grids)                                                         
+H- Tramas, hatch, sólidos (Model)                                                                 
+I- Trama                                                                                          
+J- Secções, detalhes e pormenores                                                                 
+K- Marcas e núvens de revisão (revision cloud)                                                    
+L- Legendas, anotações                                                                            
+M- Metainformação                                                                                 
+N- Blocos, simbolos e referências externas (Layout)                                               
+O- Outros (Layout)                                                                                
+P- Polígono                                                                                       
+Q- Vistas (viewports)                                                                             
+R- Linhas de corte ou de eixo (redlines, breaklines)                                              
+S- Blocos, simbolos e referências externas (Model)                                                
+T- Textos (Model)                                                                                 
+U- Outros (Model)                                                                                 
+V- Textos (Layout)                                                                                
+W- Legendas, anotações e titulos (Layout)                                                         
+X- Pontos                                                                                         
+Y- Gráficos e tabelas                                                                             
+Z- Dimensões e cotagens (Layout)  

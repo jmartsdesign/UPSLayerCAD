@@ -1,0 +1,15 @@
+- -
+A Existente em exploração
+B Em instalação
+C Em Construção
+D A deslocar
+E Existente a Permanecer
+F Existente a Ser Movido (posição final)
+G Novo em exploração
+H Novo fora de serviço
+I Existente fora de serviço
+N Novo Trabalho
+O Existente a ser Movido (posição original)
+P Provisório
+R Existente para demolir
+T Trabalho Temporário
