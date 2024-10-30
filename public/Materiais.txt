@@ -1,0 +1,237 @@
+-- -
+0- Pedra natural e reconstruída
+01 Ardósia natural
+01 Areia
+01 Arenito
+01 Basalto
+01 Bauxite
+01 Calcário
+01 Giz
+01 Granito
+01 Gravilha
+01 Lioz
+01 Mármore
+01 Pederneira
+01 Pedra de areia
+01 Pedra natural
+01 Quartzito
+02 Ardósia composta reconstruída
+02 Pedra reconstituída reconstruída moldada
+09 Outras pedras
+1- Cimentícios betão e de ligação mineral
+11 Argamassa
+11 Cimento
+11 Cimento com fibras minerais
+11 Cimento de amianto
+11 Cimento de lã de madeira
+11 Cimento portland
+11 Cimento reforçado com fibra de vidro
+11 Cimentos naturais
+11 Fibrocimento
+11 Lagetas de cimento
+11 Ligantes
+11 Materiais cimentícios ligantes
+12 Betão aligeirado
+12 Betão armado
+12 Betão com agregados aligeirados
+12 Betão de elevada densidade
+12 Betão geral
+12 Betão moldado no local
+12 Betão pré-esforçado
+12 Betão pré-moldado
+13 Areia calcária
+13 Cal
+13 Cal aérea
+13 Cal hidráulica
+13 Estuque
+13 Gesso
+13 Outros materiais com cimentos minerais
+13 Silicato de cálcio
+19 Outros cimentícios
+2- Minerais excluindo materiais cimentícios
+21 Amianto
+21 Argilito cozido
+21 Esmalte
+21 Fibra de rocha
+21 Materiais à base de minerais
+21 Mica
+21 Perlite
+21 Quartzo
+21 Vermiculita
+21 Vidro
+22 Bentonita
+22 Solos naturais
+23 Argila
+23 Argila refractária
+23 Argila refractária vidrada
+23 Barro
+23 Cerâmica
+23 Cerâmica vidrada
+23 Materiais à base de argila
+23 Porcelana
+23 Terracota
+24 Asfalto
+24 Betume
+24 Betume reforçado com fibra
+24 Fibra de resina
+24 Materiais à base de betume
+24 Polímero de betume
+24 Polímero de resina
+24 Resina
+29 Outros minerais
+3- Metais
+31 Aço
+31 Aço classificado por finalidade
+31 Aço com elevado teor de carbono
+31 Aço com tratamento anti-corrosão
+31 Aço de liga
+31 Aço electro-revestido
+31 Aço galvanizado
+31 Aço inoxidável
+31 Aço inoxidável revestido a folha de flandres
+31 Aço macio
+31 Aço pulverizado
+31 Aço revestido a esmalte vitrificado
+31 Aço revestido a poliester pulverizado
+31 Aço revestido protegido
+31 Aço sem elementos de liga com baixo teor de manganês
+31 Aço sem elementos de liga com elevado teor de manganês
+31 Engenharia
+31 Envelhecimento
+31 Estrutural
+31 Para aplicações sob pressão
+31 Para betão
+31 Para carris
+31 Para condutas
+31 Para enformação a frio
+31 Resistente à corrosão
+32 Aço dúctil (ferro fundido com grafite esferóide)
+32 Ferro
+32 Ferro fundido
+32 Ferro vazado
+33 Alumínio
+33 Alumínio revestido e protegido
+33 Liga de alumínio
+34 Cobre
+35 Liga de zinco mazac
+35 Zinco
+36 Chumbo
+37 Estanho
+38 Titânio
+39 Bronze
+39 Latão
+39 Níquel
+39 Outros metais
+39 Tungsténio
+4- Madeiras
+41 Abeto
+41 Auodiné
+41 Balsa
+41 Buxo
+41 Carvalho flôr
+41 Carvalho liso
+41 Castanho
+41 Cedro
+41 Cerejeira
+41 Choupo
+41 Eneixo
+41 Eucalipto
+41 Faia
+41 Kambaia
+41 Madeira geral
+41 Mahoné
+41 Moabi
+41 Mucibe
+41 Mutene
+41 Nogueira
+41 Pau rosa
+41 Pau santo
+41 Pinho
+41 Sicomoro
+41 Teca
+41 Tola
+41 Umbila
+41 Undianuno
+41 Undianuno listado
+41 Zebra
+41 Zimba
+41 Zumbica
+42 Cartão prensado
+42 Contraplacado
+42 Folheados
+42 Laminado colado
+42 Laminados
+42 Madeira laminados
+43 Aglomerado de madeira
+43 Blocos de construção em madeira fibra
+43 Painéis de aglomerado de madeira com cimento
+43 Painéis estruturais
+43 Painel de fibras de linho
+43 Painel de fibras orientadas
+43 Placas de celulose
+49 Outras madeiras
+5- Materiais animais e vegetais excluindo madeira
+51 Cabedal
+51 Lã
+51 Materiais animais de insectos
+51 Pêlo
+51 Seda
+52 Algodão
+52 Caldeiras a gasóleo
+52 Cana
+52 Cartão
+52 Casca de árvore
+52 Cortiça
+52 Fibra de coco
+52 Juta
+52 Linho
+52 Linóleo
+52 Material vegetal
+52 Palha
+52 Relva
+52 Serapilheira
+59 Outros materiais animais e vegetais excluindo madeira
+6- Plásticos borracha químicos e sintéticos
+61 Acrílico polimetilo metacrilato
+61 Acrilonitrilo-butadieno-estireno (ABS)
+61 Epoxy
+61 Fenólicos
+61 Fomaldeido de ureia Vinil
+61 Plásticos geral
+61 Poliamidas
+61 Policarbonato
+61 Policloreto de vinilo não plastificado (PVC-U)
+61 Policloreto de vinilo plastificado (PVC)
+61 Poliester
+61 Poliestireno
+61 Polietileno politeno
+61 Polipropileno
+61 Polisicocianatos
+61 Poliuretano
+62 Compostos de plástico
+62 Papel colado com resina
+62 Plástico reforçado com fibra de vidro
+62 Plástico reforçado com fibras de carbono
+63 Borracha
+63 Produtos à base de borracha natural
+64 Borracha butílica
+64 Materiais à base de borracha sintética
+64 Neopreno
+64 Polisulfito
+64 Silicone
+65 Ácidos
+65 Bases
+65 Produtos químicos sintéticos
+65 Sais
+69 Outros plásticos borrachas químicos e sintéticos
+7- Combinados outros materiais materiais não definidos
+71 Materiais combinados ou compostos
+72 Colas juntas
+72 Compósitos
+72 Materiais auxiliares suportes
+72 Materiais funcionais
+72 Materiais protectores modificadores de propriedades
+72 Substâncias
+72 Tintas
+79 Outros materiais não definidos
+ 

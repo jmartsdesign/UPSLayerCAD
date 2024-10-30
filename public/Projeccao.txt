@@ -1,0 +1,10 @@
+- -                                                                                                   
+0 Planta                                                                                              
+1 Alçado                                                                                              
+2 Corte                                                                                               
+3 Modelo tridimensional (3D)                                                                          
+4 Pormenorizações e detalhes                                                                          
+5 Vista em planta                                                                                     
+6 Vista em alçado                                                                                     
+7 Vista em corte                                                                                      
+8 Invisíveis                                                                                          
