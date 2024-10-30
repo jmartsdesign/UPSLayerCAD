@@ -1,0 +1,1925 @@
+0----- Outros
+1----- Elementos estruturais substrutura
+10---- Solo
+11---- Fundações
+110--- Estacas
+111--- Micro-estacas
+112--- Getgrouting
+113--- Sapatas
+12---- Pilares
+13---- Vigas
+130--- Vigotas
+14---- Sumidouros
+15---- Drenagem
+150--- Drenagem de águas pluviais
+151--- Drenagem subterrânea
+152--- Drenos
+153--- Geodrenos
+16---- Muros de contenção
+160--- Muro de contenção periférica e fundações
+161--- Muro de vedação
+162--- Ancoragens
+163--- Pregagens
+17---- Lajes bases de pavimentos
+170--- Prelajes
+18---- Armaduras
+180--- Moldes para armaduras
+181--- Perfis metálicos
+1810-- Elementos metálicos associados às estruturas
+182--- Tipos de armaduras
+1820-- A400 NR
+1821-- A400 NR de ductilidade especial
+1822-- A500 NR
+1823-- A500 ER
+19---- Outros elementos estruturais
+190--- Cofragem
+191--- Fio para pré-esforço
+192--- Varões
+1920-- Varões nervurados
+193--- Redes electrossoldadas
+194--- Nervuras
+1940-- Nervuras transversais
+195--- Traves
+1950-- Alminha
+199--- Elementos genéricos associados às estruturas
+1990-- Juntas de dilatação
+2----- Elementos primários
+20---- Elementos primários genéricos muros e paredes
+200--- Paredes
+21---- Muros paredes exteriores
+210--- Paredes exteriores
+211--- Acabamentos de paredes exteriores
+219--- Outros muros paredes exteriores
+2190-- Muro simples
+2191-- Muro com gradeamento
+2192-- Muro com jorramento
+2193-- Muralha
+22---- Paredes interiores e divisórias
+220--- Paredes interiores
+221--- Acabamentos de paredes interiores
+229--- Outras paredes interiores
+23---- Pavimentos galerias mezaninos balcões
+230--- Pavimentos
+231--- Acabamentos de pavimentos galerias mezaninos balcões
+232--- Pavimentos de laje pavimentos monolíticos
+233--- Extremidades das lajes
+234--- Pavimentos compostos montados
+235--- Pavimentos exteriores terraços coberturas acessíveis
+236--- Bailéus alpendres
+237--- Balcões galerias
+238--- Varandas varandins
+239--- Outros pavimentos galerias mezaninos balcões
+24---- Escadas
+240--- Escadas gerais
+2400-- Escadas de emergência
+2401-- Escadas em caracol
+2402-- Escadas metálicas
+2403-- Escadas para sótãos
+2404-- Escadas rolantes
+2405-- Escadas rampeadas
+241--- Acabamentos de escadas
+242--- Estrutura de escadas
+243--- Suportes de escadas
+244--- Cobertores
+245--- Espelhos
+246--- Balaustradas gradeamentos
+2460-- Balaústres
+2461-- Gradeamentos
+247--- Guardas corrimãos
+2470-- Corrimãos de escadas
+2471-- Guardas de escadas
+249--- Outras escadas
+25---- Rampas
+250--- Rampas gerais
+251--- Acabamentos de rampas
+252--- Estrutura de rampas
+253--- Suportes de rampas
+254--- Balaustradas de rampas
+255--- Corrimãos de rampas
+259--- Outras rampas
+26---- Elevadores e plataformas
+260--- Elevador ou ascensor
+261--- Elevadores de escada para cadeiras de rodas
+262--- Montacargas
+263--- Plataformas gerais
+264--- Plataformas elevatórias
+265--- Plataformas móveis modulares
+269--- Outros elevadores plataformas
+27---- Coberturas e telhados
+270--- Coberturas gerais
+2700-- Coberturas isolantes
+2701-- Coberturas em arco
+2702-- Coberturas em colmo
+2703-- Coberturas autoportantes
+2704-- Coberturas tensionadas
+2705-- Coberturas para piscinas
+271--- Acabamentos de coberturas
+272--- Elementos de composição de coberturas telhados
+2720-- Algerozes goteiras
+2721-- Beirados
+2722-- Caleiras
+2723-- Cimalhas
+2724-- Cornijas
+2725-- Telhas
+273--- Vãos aberturas nas coberturas
+2730-- Clarabóia
+2731-- Chaminé
+274--- Tectos falsos
+2740-- Estrutura de tectos falsos
+279--- Outras coberturas telhados
+29---- Outros elementos primários
+3----- Elementos secundários
+30---- Elementos secundários acessórios gerais
+31---- Elementos secundários de paredes exteriores
+310--- Acessórios de paredes exteriores
+32---- Elementos secundários de paredes interiores
+320--- Acessórios de paredes interiores
+33---- Elementos secundários de pavimentos
+330--- Acessórios de pavimentos
+34---- Elementos secundários de escadas rampas
+340--- Acessórios de escadas rampas
+35---- Elementos secundários para tectos tectos falsos
+350--- Acessórios para tectos e tectos falsos
+3501-- Acabamentos de tectos falsos
+3502-- Acessórios para tectos falsos
+3503-- Tectos falsos tensos ou tensionados
+3504-- Tectos falsos suspensos
+3505-- Tectos falsos pré-fabricados
+3506-- Outros tectos falsos
+36---- Portas e janelas
+360--- Portas e janelas em geral
+361--- Acabamentos de portas janelas
+362--- Elementos de composição de portas janelas
+3620-- Aros
+3621-- Arquitraves
+3622-- Caixilhos
+3623-- Ferragens puxadores outras peças de suporte
+36230- Ferragens
+36231- Ferragens especiais
+36232- Ferragens oscilo-batente
+36233- Ferragens para portas de correr
+36234- Ferramentas acessórios
+36235- Fechaduras
+3624-- Folhas
+3625-- Ombreiras soleiras peitoris
+3626-- Postigos
+3627-- Vidros
+3628-- Outros elementos para portas e janelas
+363--- Persianas estores venezianas
+3630-- Caixas de estores
+3631-- Estores
+3632-- Persiana
+3633-- Veneziana
+364--- Portas
+3640-- Portas corta-fogo
+3641-- Portas de alta segurança
+3642-- Portas de fole
+3643-- Portas giratórias
+3644-- Portas automáticas
+3645-- Portas de correr
+3646-- Portas interiores
+3647-- Portas exteriores
+3648-- Portas especiais
+3649-- Portões
+365--- Janelas
+3650-- Janelas de alta segurança
+3651-- Janelas automáticas
+3652-- Janelas de correr
+3653-- Janelas de sótão
+3654-- Janelas especiais
+3655-- Janelas de sacada
+369--- Outros elementos de portas janelas
+39---- Outros elementos secundários gerais
+390--- Outros elementos secundários acessórios
+4----- Acabamentos revestimentos e isolamentos
+40---- Acabamentos
+400--- Acabamentos de paredes exteriores
+401--- Acabamentos de paredes interiores
+402--- Acabamentos de pavimentos
+403--- Acabamentos de escadas
+404--- Acabamentos de rampas
+405--- Acabamentos de coberturas
+406--- Acabamentos de tectos
+409--- Outros acabamentos
+41---- Revestimentos
+410--- Revestimentos de paredes exteriores
+411--- Revestimentos de paredes interiores
+412--- Revestimentos de pavimentos
+413--- Revestimentos de escadas
+414--- Revestimentos de rampas
+415--- Revestimentos de coberturas
+416--- Revestimentos de tectos
+419--- Outros revestimentos
+42---- Isolamentos
+420--- Isolamento acústico
+421--- Isolamento térmico
+422--- Isolamento antivibratório
+423--- Isolamento termo-acústico
+429--- Outros isolamentos
+4290-- Barreiras
+42900- Barreiras acústicas
+42901- Barreiras de insonorização
+5----- Vias de comunicação
+50---- Rede fundamental
+500--- IP
+501--- IP/AE
+502--- Separador protector associado ao IP
+503--- Separador protector associado ao IP/AE
+504--- Eixo do IP
+505--- Eixo do IP/AE
+51---- Rede complementar
+510--- IC
+5100-- Eixo do IC
+5101-- Separador protector associado ao IC
+511--- IC/AE
+5110-- Eixo do IC/AE
+5111-- Separador protector associado ao IC AE
+512--- IC/ via rápida
+5120-- Eixo do IC via rápida
+5121-- Separador protector associado IC via rápida
+513--- IC/ circular regional interna
+5130-- Eixo do IC circular regional interna
+5131-- Separador protector associado ao IC circular regional interna
+514--- IC/ circular regional externa
+5140-- Eixo do IC circular regional externa
+5141-- Separador protector associado IC circular regional externa
+515--- IC/ radial
+5150-- Eixo do IC radial
+5151-- Separador protector associado IC radial
+516--- EN
+5160-- Eixo da EN
+52---- Rede municipal
+520--- Estrada municipal
+5200-- Eixo da estrada municipal
+521--- Caminho municipal
+5210-- Eixo do caminho municipal
+522--- Caminho vicinal
+523--- Vereda
+524--- Rua avenida rotunda praça largo passeio
+5240-- Eixo da rua avenida rotunda praça largo passeio
+525--- Arruamentos
+5250-- Eixo dos arruamentos
+526--- Escadarias
+5260-- Eixo das escadarias
+53---- Rede de utilização limitada
+530--- Estrada militar
+5300-- Eixo da estrada militar
+531--- Caminho militar
+5310-- Eixo do caminho militar
+532--- Estrada particular
+5320-- Eixo da estrada particular
+533--- Caminho particular
+5330-- Eixo do caminho particular
+54---- Rede florestal
+540--- Estrada florestal
+5400-- Eixo da estrada florestal
+541--- Caminho florestal
+5410-- Eixo do caminho florestal
+542--- Aceiro
+5420-- Eixo de aceiro
+55---- Tráfego ferroviário caminhos de ferro
+550--- Ferrovia elementos gerais
+5500-- Equipamento de via férrea
+55000- Carril
+550000 Carril do eléctrico
+551--- Via
+5510-- Eixo da via
+55100- Eixo da via projectado
+55101- Eixo da entrevia do caminho de ferro
+5511-- Planta de via elementos gerais
+55110- AMV
+551100 AMV Cróxima
+551101 AMV Junta da lança
+551102 AMV Lança
+551103 AMV Talão da cróxima
+55111- Construções
+551110 Edifícios confinantes
+551111 Edifícios REFER
+551112 Muros particulares
+551113 Muros REFER
+551114 Obras arte confinantes
+551115 Obras arte via
+551116 Plataformas
+551117 Vedações particulares
+551118 Vedações REFER
+55112- Elementos gráficos associados à planta da via
+551120 Curvas circulares
+551121 Localização de perfis transversais
+551122 Numeração de AMV
+551123 Numeração de linhas
+551124 Pontos notáveis
+551125 Rectas
+551126 Transições
+55113- Elementos sinalização de via
+551130 Caixas sinalização
+551131 Canaletes sinalização
+551132 Grades transição inclinação
+551133 Indicadores limite resguardo
+551134 Pára-choques
+551135 Referências quilométricas
+55114- Equipamentos
+551140 Equipamento AMV
+551141 Pára-choques
+551142 ADs
+551143 Grades de transição
+551144 Velocidade no ramo desviado de AMVs
+55115- Postes
+551150 Postes catenária
+551151 Outros postes
+55116- Quadros de apoio
+551160 Quadro de apoio AMV
+551161 Curvas
+551162 Bordaduras de plataformas
+551163 Comprimentos de Linhas
+551164 Poligonal de apoio
+55117- Outros elementos planta de via
+551170 Apoio topográfico
+551171 Barretas
+551172 Caixas drenagem
+551173 Estacas piquetagem
+551174 Levantamento a clássico
+551175 Quadros
+551176 Restituição aerofotografmétrica
+551177 Soldaduras
+551178 Vértices da poligonal de apoio
+5512-- Perfil transversal
+55120- AMV
+55121- Carril
+55122- Elementos gráficos associados ao perfil transversal da via
+551220 Cotas existentes associadas ao perfil transversal
+551221 Cotas de projecto associadas ao perfil transversal
+551222 Cotas de referência associadas ao perfil transversal
+551223 Grelhas associadas ao perfil transversal
+551224 Número de perfil associado ao perfil transversal
+55123- Referências quilométricas
+5513-- Perfil longitudinal
+55130- AMV
+55131- Carril
+55132- Construções
+551320 Obras de arte
+551321 Passagem de nível
+551322 Plataformas
+551323 Pontes REFER
+55133- Elementos gráficos associados ao perfil longitudinal da via
+551330 Anotações associadas ao plano de assentamento
+551331 Cotas de projecto associadas ao perfil longitudinal
+551332 Cotas existentes associadas ao perfil longitudinal
+551333 Distâncias associadas ao perfil longitudinal
+551334 Linhas chamada associadas ao perfil longitudinal
+551335 Número de perfil associado ao perfil longitudinal
+551336 Pente associado ao perfil longitudinal
+551337 Traçado em planta associado ao perfil longitudinal
+55134- Hectometragem
+55135- Marcas nivelamento
+55136- Rasante projecto
+55137- Referências quilométricas
+55138- Traineis
+55139- Vértices
+5514-- Diagrama de curvas
+55140- Designações associadas ao diagrama de curvas
+55141- Flechas
+55142- Identificação e características das curvas
+55143- Linha de eixo com marcação estacas
+55144- Pente
+5515-- Plano de assentamento
+55150- AMV
+551500 AMV a assentar
+551501 Características AMV
+55151- Carril
+55152- Construções
+551520 Obras de arte
+551521 Pontes REFER
+55153- Elementos gráficos associados ao plano de assentamento
+551530 Anotações associadas ao plano de assentamento
+551531 Comprimentos associados ao plano de assentamento
+551532 Designações e quantidades associadas ao plano de assentamento
+551533 Diagrama de curvas associado ao plano de assentamento
+551534 Grelha associada ao plano de assentamento
+551535 Mapa de materiais de via associado ao plano de assentamento
+551536 Traçado associado ao plano de assentamento
+55154- Outros elementos associados ao plano de assentamento
+551540 Balastro
+551541 Barras
+551542 Fixações
+551543 Grades de transição
+551544 Juntas isolantes
+551545 Passagem de nível (PN)
+551546 Referências quilométricas
+551547 Soldaduras
+551548 Sub-balastro
+551549 Travessas
+552--- Sinalização e telecomunicações
+5520-- Elementos de terreno
+55200- Sinais
+55201- Sinais sentido normal
+55202- Sinais sentido contravia
+55203- Circuitos de via
+55204- Contadores de eixos
+55205- Pedais
+55206- Armários
+55207- Caminhos cabos
+55208- Cabos e suportes físicos
+5521-- Elementos de interior
+55210- Encravamentos
+55211- Centros de comando local
+55212- Centros de comando central
+55213- Sistemas de energia emergência UPS e baterias
+5522-- Elementos de via e catenária
+55220- Via unifilar com circuitos de via
+55221- Via bifilar com circuitos de via - fila positiva (+)
+55222- Via bifilar com circuitos de via - fila negativa (-)
+55223- Via sem circuitos de via
+55224- Ponto quilométrico (PK)
+55225- Elementos de catenária
+5523-- Outros elementos de sinalização
+55230- Sequência de aspectos (SA)
+55231- SA - Sentido ascendente
+55232- SA - Sentido descendente
+55233- PN - Automatização de passagens de nível
+5524-- Controlo Automático de Velocidade (CONVEL)
+55240- Restrições de velocidade - Tipo K
+55241- Restrições de velocidade - Tipo T
+5525-- European Rail Traffic Management System (ERTMS)
+5526-- ETCS
+55260- Equipamento de via
+55261- Equipamento embarcado
+5527-- Radio Block Center (RBC)
+5528-- GSM - R
+553--- Catenária
+5530-- Piquetagem
+55300- Cabos
+553000 Fio de contacto (FC)
+553001 Cabo de suporte (CS)
+553002 Catenária (FC+CS)
+553003 Linha de contacto simples
+553004 Catenária aligeirada
+553005 Amarração
+55301- Apoios
+553010 Poste
+553011 Pórtico
+553012 Espia
+553013 Maciço
+553014 Postalete
+553015 Consola
+553016 Rappel
+55302- Aparelhagem eléctrica
+553020 Seccionador
+553021 Interruptor
+553022 Disjuntor
+553023 Transformador
+553024 Autotransformador
+553025 Descarregador de sobretensão
+553026 Fusível
+55303- Alimentação
+553030 Subestação de tracção
+553031 Posto de catenária
+553032 Posto auxiliar
+553033 Cabo de alimentação (Feeder)
+553034 Transversal de alimentação
+55304- Circuito de terras
+553040 Cabo de terra
+553041 Baixada do cabo de terra
+553042 Eléctrodo de terra
+553043 Ligação - sistema de terras universal
+553044 Ligação - sistema de terras tradicional
+553045 Caixa de visita
+55305- Desalinhamentos
+553050 Desalinhamento do fio de contacto
+55306- Isolamentos
+553060 Isolador
+553061 Isolador de secção
+55307- Diversos
+553070 Painéis de protecção
+553071 Sinal de catenária
+553072 Poste ou Km limite
+553073 Ligação eléctrica
+553074 Zona comum
+553075 Zona neutra
+553076 Seccionamento de lâmina de ar
+5531-- Montagem
+55310- Cabos
+553100 Fio de contacto (FC)
+553101 Cabo de suporte (CS)
+553102 Catenária (FC+CS)
+553103 Linha de contacto simples
+553104 Cabo de bronze (Bz)
+55311- Apoios
+553110 Poste
+553111 Pórtico
+553112 Espia
+553113 Maciço
+553114 Postalete
+553115 Consola
+553116 Rappel
+553117 Tirante
+553118 Antibalançante
+553119 Braço de chamada
+55312- Aparelhagem eléctrica
+553120 Seccionador
+553121 Interruptor
+553122 Disjuntor
+553123 Transformador
+553124 Autotransformador
+553125 Descarregador de sobretensão
+553126 Fusível
+553127 Ligação eléctrica
+55313- Alimentação
+553130 Subestação de tracção
+553131 Posto de catenária
+553132 Posto auxiliar
+553133 Cabo de alimentação (Feeder)
+553134 Transversal de alimentação
+55314- Circuito de terras
+553140 Cabo de terra
+553141 Baixada do cabo de terra
+553142 Eléctrodo de terra
+553143 Ligação - sistema de terras universal
+553144 Ligação - sistema de terras tradicional
+553145 Caixa de visita
+55315- Diversos
+553150 Amarração
+553151 Antivento
+553152 Painéis de protecção
+553153 Sinal de catenária
+553154 Pêndulo
+553155 Isolador
+553156 Isolador de secção
+553157 Equipamento tensor
+5532-- Esquemas longitudinais e eléctricos
+55320- Catenária
+553200 Via electrificada
+553201 Via não electrificada
+553202 Antideslizamento
+553203 Poste ou Km limite
+553204 Isolador
+553205 Isolador de secção
+553206 Zona comum
+553207 Zona neutra
+553208 Seccionamento de lâmina de ar
+55321- Aparelhagem eléctrica
+553210 Seccionador
+553211 Interruptor
+553212 Disjuntor
+553213 Transformador
+553214 Autotransformador
+553215 Descarregador de sobretensão
+553216 Fusível
+553217 Ligação eléctrica
+55322- Alimentação
+553220 Subestação de tracção
+553221 Posto de catenária
+553222 Posto auxiliar
+553223 Cabo de alimentação (Feeder)
+55323- Circuito de terras
+553230 Cabo de terra
+553231 Baixada do cabo de terra
+553232 Eléctrodo de terra
+553233 Ligação - sistema de terras universal
+553234 Ligação - sistema de terras tradicional
+55324- Diversos
+553240 Secção elementar
+553241 Sector de catenária
+553242 Subsector de catenária
+5533-- Materiais
+55330- Peças de catenária
+554--- Energia de tracção
+5540-- Alimentação
+55400- Subestação de tracção
+55401- Posto de catenária
+55402- Posto auxiliar
+55403- Cabo de alimentação (Feeder)
+5541-- Aparelhagem eléctrica
+55410- Seccionador
+55411- Interruptor
+55412- Disjuntor
+55413- Transformador
+55414- Autotransformador
+55415- Descarregador de sobretensão
+55416- Fusível
+55417- Telecomando
+55418- Bateria
+55419- Regulador de tensão
+5542-- Diversos
+55420- Cabina de comando
+55421- Edifício de comando
+55422- Aquecimento
+55423- Quadros eléctricos
+55424- Sistema de terras universal
+555--- Retorno da corrente de tracção terras e protecções
+5550-- Via
+5551-- Sinalização
+5552-- Catenária
+55520- Catenária elementos gerais
+555200 Catenária (FC+CS)
+555201 Poste
+55521- Aparelhagem eléctrica
+555210 Seccionador
+555211 Interruptor
+555212 Disjuntor
+555213 Transformador
+555214 Autotransformador
+555215 Descarregador de sobretensão
+555216 Fusível
+55522- Alimentação
+555220 Subestação de tracção
+555221 Posto de catenária
+555222 Posto auxiliar
+555223 Cabo de alimentação (Feeder)
+55523- Circuito de terras
+555230 Cabo de terra
+555231 Baixada do cabo de terra
+555232 Eléctrodo de terra
+555233 Ligação - sistema de terras universal
+5553-- Outras estruturas de retorno
+56---- Área de apoio ao tráfego aéreo
+560--- Aeroporto
+561--- Aeródromo
+5610-- Heliporto sobre solo
+5611-- Heliporto sobre edifício
+562--- Aeromotor
+57---- Área de apoio ao tráfego marítimo
+570--- Cais de embarque
+571--- Cais fluvial plataforma
+572--- Cais marítimo plataforma
+573--- Estruturas de apoio á navegação
+574--- Farol
+58---- Áreas de apoio ao tráfego terrestre
+580--- Tráfego rodoviário
+5800-- Paragem autocarro
+581--- Terminal TIR
+582--- Áreas de serviço
+583--- Parques de estacionamento
+5830-- Parquímetro
+584--- Pontes para tráfego
+5840-- Ponte de ferro
+5841-- Ponte de cantaria
+5842-- Ponte de betão armado
+5843-- Ponte de madeira
+5844-- Ponte giratória
+5845-- Ponte levadiça
+5846-- Ponte suspensa
+5847-- Pontes sobrepostas
+5848-- Outras pontes
+58480- Ponte para peões
+58481- Pontão
+58483- Viadutos
+58484- Passadiço
+5849-- Estruturas associadas às pontes para tráfego
+58490- Informação geral
+584900 Fundações
+584901 Planimetria
+584902 Altimetria
+584903 Geologia
+584904 Conjunto
+584905 Sondagens
+584906 Dimensionamento geral
+58491- Encontros
+584910 Perdidos
+584911 Misto
+584912 Cofre
+584913 Armaduras
+58492- Pilares
+584920 Sapatas
+584921 Estacas
+584922 Armaduras
+584923 Pré-esforço
+58493- Tabuleiro
+584930 Vigado
+584931 Caixão
+584932 Nervurado
+584933 Pré-fabricado
+584934 Pré-esforço
+584935 Armaduras
+58494- Elementos acessórios de protecção de pontes
+584940 Barreiras acústicas
+584941 Painéis acústicos
+584942 Guarda-corpos
+584943 Protecção de catenária
+584944 Delineadores unidireccionais
+584945 Dispositivos anti-encandeamento
+584946 Vigas de bordadura
+584947 Perfil metálico de segurança
+58495- Elementos acessórios metálicos
+584950 Portas metálicas
+584951 Escadas metálicas
+584952 Plataformas metálicas
+584953 Tampas metálicas
+58496- Outros elementos acessórios
+584960 Caixa de visita
+584961 Esgotos de águas pluviais
+584962 Sumidouros
+584964 Aparelhos de apoio
+585--- Passagens niveladas desniveladas túneis
+5850-- Passagem nivelada
+5851-- Passagem desnivelada
+5852-- Túnel
+586--- Passagem de nível
+587--- Passagem inferior
+588--- Passagem superior
+59---- Outras vias de comunicação
+590--- Estrada
+5900-- Eixo da estrada
+5901-- Rail de estrada
+5902-- Estrada principal
+5903-- Estrada secundária
+591--- Caminho
+5910-- Eixo do caminho
+5911-- Caminho de carro
+59110- Carreteiro
+5913-- Caminho de pé posto
+5914-- Caminho ou passagem agrícola
+5915-- Caminho ou passagem hidráulica
+592--- Pistas
+5920-- Tráfego aéreo
+59200- Eixo da pista de tráfego aéreo
+5921-- Hipódromo
+59210- Eixo do hipódromo
+5922-- Autódromo
+59220- Eixo da pista do autódromo
+5923-- Cross motorizado
+59230- Eixo da pista de cross motorizado
+593--- Valetas
+5930-- Valetas com tampa
+5931-- Valetas sem tampa
+594--- Rasantes
+595--- Bermas
+596--- Guias
+597--- Distâncias marcação de Km’s
+6----- Especialidades
+60---- Redes de distribuição públicas
+600--- Redes de distribuição públicas gerais
+601--- Redes de distribuição de águas
+6010-- Água fria
+6011-- Água quente
+6012-- Retorno
+6013-- Incêndio húmida
+6014-- Incêndio seca
+6015-- Sprinklers
+6016-- Rega
+602--- Redes de distribuição de electricidade
+603--- Redes de distribuição de gás
+604--- Redes de esgotos
+6040-- Domésticos
+6041-- Pluviais
+6042-- Ventilação
+6043-- Lavagem
+6044-- Conduta elevatória
+6045-- Geodrenos
+6046-- Descarga de emergência
+6047-- Termoacumulador
+6048-- Caldeiras
+605--- Redes de distribuição de comunicações
+606--- Redes de distribuição de energia
+609--- Outras redes de distribuição
+61---- Canalizações
+610--- Canalizações de água gerais
+6100-- Canalizações de água fria
+6101-- Canalizações de água quente
+611--- Canalizações de gás
+619--- Outras canalizações
+62---- Instalações de comunicações
+620--- Rede de voz dados
+6200-- Dispositivos telefónicos
+6201-- Bastidores
+6202-- Caixas para rede de voz dados
+6203-- Cabos tubos para rede de voz dados
+6204-- Caminhos cabos
+621--- Som
+6210-- Dispositivos de som
+6211-- Bastidores
+6212-- Caixas de som
+6213-- Equipamentos terminais de som
+6214-- Cabos tubos de som
+622--- TV
+6220-- Dispositivos de TV
+6221-- Caixas de TV
+6222-- Equipamentos terminais de TV
+6223-- Cabos tubos de TV
+63---- Instalações eléctricas
+630--- Quadros eléctricos
+6300-- Quadros eléctricos
+6301-- Cargas normais
+6302-- Cargas de emergência
+6303-- Cargas críticas
+6304-- Alimentação de quadros
+63040- Cabos eléctricos
+63041- Dispositivos eléctricos
+6305-- Aparelhos eléctricos diversos
+63050- Disjuntores
+63051- Transformadores
+63052- Geradores
+63053- Electrobomba
+63054- Contadores
+631--- Iluminação
+6310-- Iluminação normal
+63100- Cabos eléctricos tubagem de iluminação
+63101- Aparelhos de iluminação normal
+63102- Dispositivos comandos eléctricos de iluminação
+6311-- Iluminação de emergência
+63110- Cabos eléctricos tubagem de iluminação de emergência
+63111- Aparelhos de iluminação de emergência
+63112- Dispositivos comandos eléctricos de iluminação de emergência
+6312-- Iluminação pública
+63120- Cabos tubagem de iluminação pública
+63121- Aparelhos de iluminação pública
+63122- Dispositivos comandos eléctricos de iluminação pública
+6313-- Iluminação fluorescente
+6314-- Aparelhos de iluminação
+63140- Projectores
+63141- Interruptores
+63142- Lâmpadas
+63143- Candeeiros
+631430 Candeeiros múltiplos
+63144- Holofotes
+632--- Tomadas
+6320-- Tomadas nacionais
+63200- Cabos eléctricos tubagem de tomadas nacionais
+63201- Equipamentos eléctricos de tomadas nacionais
+6321-- Tomadas assistidas
+63210- Cabos eléctricos tubagem de tomadas assistidas
+63211- Equipamentos eléctricos de tomadas assistidas
+6322-- Tomadas UPS
+633--- Alimentação de equipamentos
+6330-- Cabos eléctricos tubagem para alimentação de equipamentos
+6331-- Equipamentos terminais
+634--- Rede de terras
+6340-- Cabos para rede de terras
+6341-- Dispositivos para rede de terras
+6342-- Pára-raios para rede de terras
+6343-- Caixas para rede de terras
+635--- Central de emergência
+6350-- Grupo
+6351-- Equipamentos para central de emergência
+6352-- Sistema escape
+6353-- Sistema de arrefecimento
+6354-- Sistema alimentação de combustível
+6355-- Condutas de ar
+636--- Rede de média tensão
+6360-- Cabos tubagem para rede de média tensão
+6361-- Equipamentos para rede de média tensão
+637--- Equipamentos gerais de instalações eléctricas
+6370-- Outros interruptores
+6371-- Outras lâmpadas
+64---- Sistemas de drenagem e de tratamentos
+640--- Drenagem
+6400-- Águas sujas
+6401-- Remoção de lixos
+6402-- Esgotos laboratoriais
+6403-- Esgotos químicos
+641--- Tratamentos
+6410-- Tratamento de água reservatórios
+6411-- Tratamento de esgotos fossas
+64110- Caixas de esgoto
+64111- Fossa séptica
+642--- Condutas
+6420-- Condutas para entulho
+6421-- Cones de saneamento
+643--- Bombas e motores
+644--- Reservatórios
+645--- Poços
+649--- Outros sistemas de drenagem e de tratamentos
+65---- Sistemas de aquecimento ventilação ar condicionado
+650--- Distribuição tratamento de ar
+6500-- Tratamento acústico
+65000- Apoios anti-vibráticos
+65001- Grelhas acústicas
+65002- Painéis de isolamento acústico
+65003- Silenciadores acústicos
+6501-- Condutas acessórios rígidas flexíveis
+65010- Ar novo
+65011- Retorno extracção
+65012- Insuflação
+65013- Pressurização
+65014- Extracção desenfumagem
+65015- Isolamento térmico acústico
+65016- Isolamento corta-fogo
+65017- Acessórios apoios fixações
+65018- Retorno
+6502-- Difusão de ar
+65020- Grelhas difusores válvulas
+65021- Ar novo para difusão de ar
+65022- Retorno extracção
+65023- Válvulas
+65024- Insuflação
+65025- Pressurização
+65026- Grelhas intumescentes
+65027- Extracção desenfumagem
+65028- Acessórios para difusão de ar
+6503-- Equipamentos para distribuição tratamento de ar
+65030- Acessórios diversos
+65031- Caixas VAV
+650310 Purificadores
+650311 Radiadores
+650312 Registos corta-fogo
+650313 Registos de caudal
+650314 Split Multi-split VRV
+650315 Tecto pavimento radiante
+650316 Tectos filtrantes ventilados
+650317 Unidades autónomas
+650318 Unidades de filtragem
+650319 Unidades de indução
+65032- Clarabóia de desenfumagem
+650320 Unidades de precisão
+650321 Unidades de tratamento de ar
+650322 Ventiladores
+650323 Ventiloconvectores
+650324 Volet's
+65033- Cortinas de ar
+65034- Desumidificadores
+65035- Exaustores
+65036- Filtros de ar
+65037- Hottes
+65038- Humidificadores
+65039- Permutadores de calor
+651--- Distribuição tratamento de água refrigerante
+6510-- Equipamentos para distribuição tratamento de água refrigerante
+65100- Acessórios diversos
+65101- Bancos de gelo
+651010 Separadores de ar de detritos
+651011 Termoacumuladores
+651012 Torres de arrefecimento
+651013 Vasos de expansão
+651014 Desumidificadores
+651015 Humidificadores
+651016 Radiadores
+651017 Tecto pavimento radiante
+65102- Bombas
+65103- Caldeiras
+65104- Chillers
+65105- Colectores solares
+65106- Dry-coolers
+65107- Esquentadores
+65108- Permutadores de calor
+65109- Purgadores de ar
+6511-- Tubagem acessórios
+65110- Tubagem de água de arrefecimento
+65111- Tubagem de água de aquecimento
+65112- Tubagem de água de aquecimento arrefecimento
+65113- Tubagem de água de condensação
+65114- Tubagem de água de condensados
+65115- Tubagem de água de rede
+65116- Tubagem de refrigerante
+65117- Tubagem de água de sistema solar
+65118- Tubagem de água quente sanitária
+65119- Tubagem de água para tectos arrefecidos
+65120- Tubagem de água para pavimentos radiantes
+65121- Acessórios diversos
+652--- Instalações eléctricas associadas ao AVAC
+6520-- Quadros eléctricos associados ao AVAC
+65200- Circuitos de potência
+65201- Circuitos de comando
+65202- Equipamentos de potência
+65203- Equipamentos de comando
+6521-- Alimentação de equipamentos associados ao AVAC
+65210- Cabos eléctricos tubagem associada ao AVAC
+65211- Equipamentos AVAC
+65212- Equipamentos de controlo
+65213- Caminhos cabos associados ao AVAC
+653--- Intercomunicação
+6530-- Cabos tubagem de intercomunicação
+6531-- Equipamentos diversos de intercomunicação
+66---- Instalações de segurança
+660--- Sistemas electrónicos de detecção controlo
+6600-- Detecção de incêndios - SADI
+66000- Detectores de incêndio
+66001- Equipamentos para detecção de incêndios
+66002- Cabos tubos para detecção de incêndios
+6601-- Detecção de monóxido de carbono
+66010- Detectores de monóxido de carbono
+66011- Equipamentos para detecção de monóxido de carbono
+66012- Cabos tubos para detecção de monóxido de carbono
+6602-- Detecção de gases combustíveis
+66020- Detectores de gases combustíveis
+66021- Equipamentos de detecção de gases combustíveis
+66022- Cabos tubos de detecção de gases combustíveis
+6603-- Detecção de intrusão
+66030- Detectores de intrusão
+66031- Equipamentos para detecção de intrusão
+66032- Cabos tubos para detecção de intrusão
+6604-- Controlo de acessos
+66040- Equipamentos para controlo de acessos
+66041- Cabos tubos para controlo de acessos
+6605-- Controlo de parques
+66050- Equipamentos para controlo de parques
+66051- Cabos tubos para controlo de parques
+6606-- Contagem de pessoas viaturas
+66060- Equipamentos para contagem de pessoas viaturas
+6607-- Cabos tubos associados a instalações de segurança
+661--- Sistemas de extinção
+6610-- Rede de água de serviços de incêndios
+66100- Extinção fixa equipamentos
+661000 Boca de água
+66101- Extinção fixa tubagem
+66102- Válvulas postos de controlo
+66103- Hidrantes exteriores
+6611-- Sprinklers cortinas de água
+66110- Sprinklers
+66111- Cortinas de água
+66112- Tubagem para sprinklers cortinas de água
+6612-- Extinção portátil
+66120- Equipamentos associados a sistemas de extinção
+662--- Sistemas passivos
+6620-- Compartimentação corta-fogo
+6621-- Sinalização de emergência
+6622-- Caminhos de evacuação
+6623-- Unidades de passagem
+663--- Infra-estruturas exteriores
+6630-- Hidrantes exteriores
+6631-- Caminhos de acesso para bombeiros
+67---- Outras especialidades
+670--- Gestão técnica centralizada
+6700-- Cabos eléctricos tubagem para gestão centralizada
+67000- Equipamentos AVAC associados a gestão centralizada
+67001- Equipamentos associados a gestão centralizada
+67002- Equipamentos de controlo
+67003- Caminhos cabos
+6701-- Quadros eléctricos para gestão centralizada
+67010- Circuitos de potência
+67011- Circuitos de comando
+67012- Equipamentos de potência
+67013- Equipamentos de comando
+6702-- Equipamentos de controlo para gestão centralizada
+671--- Instalações electromecânicas
+6710-- Elevadores
+6711-- Plataformas elevatórias
+6712-- Escadas rolantes
+6713-- Tapetes rolantes
+672--- Tubagens associadas a equipamentos mecânicos
+6720-- Caminhos cabos associados a equipamentos mecânicos
+6721-- Cablagem associada a equipamentos mecânicos
+6722-- Tubagens de fluídos
+67220- Tubagens de água fria
+672200 Circuito primário
+672201 Circuito secundário
+67221- Tubagens de água gelada
+672210 Circuito primário
+672211 Circuito secundário
+67222- Tubagens de ar comprimido
+672220 Tubagens de ar comprimido de alta pressão
+672221 Tubagens de ar comprimido de baixa pressão
+67223- Tubagens de vapor
+67224- Tubagens de água rede pública
+673--- Tratamento de águas de piscina
+6730-- Equipamentos acessórios para tratamento de piscinas
+67300- Bombas
+67301- Caldeiras
+67302- Colectores solares
+67303- Permutadores de calor
+67304- Doseadores
+67305- Filtros
+67306- Piscina reservatórios
+67307- Câmara de radiação
+67308- Válvulas
+67309- Injectores grelhas
+6731-- Tubagens acessórios para tratamento de piscinas
+67310- Acessórios
+67311- Tubagens de água sanitária AQS
+67312- Tubagens de água de aquecimento
+67313- Tubagens de água de aspiração
+67314- Tubagens de água de esgoto
+67315- Tubagens de água de rede
+67316- Tubagens de água de sistema solar
+67317- Tubagens de água de piscina
+674--- Gases medicinais aspiração
+6740-- Equipamentos acessórios
+67400- Equipamento central
+67401- Equipamento de controlo
+67402- Equipamento terminal
+67403- Válvulas
+6741-- Tubagem acessórios para gases medicinais
+67410- Tubagem oxigénio
+67411- Tubagem protóxico de azoto
+67412- Tubagem vácuo
+67413- Tubagem ar comprimido respirável
+67414- Tubagem ar comprimido medicinal
+67415- Tubagem ar comprimido instrumentos
+67416- Tubagem gases anestésicos
+675--- Aspiração centralizada
+6750-- Equipamentos acessórios para aspiração centralizada
+67500- Aspirador
+67501- Filtros
+67502- Equipamento terminal
+67503- Silenciador
+6751-- Tubagens acessórios para aspiração centralizada
+67510- Tubagem de aspiração
+67511- Tubagem de descarga
+68---- Outros serviços
+7----- Acessórios equipamentos mobiliário
+70---- Acessórios equipamentos e mobiliário geral
+700--- Acessórios fixos equipamento fixo
+7000-- Aparelhagens
+70000- Aparelhagem de comando
+70001- Aparelhagem de comutação
+70002- Aparelhagem de controlo
+70003- Aparelhagem de som
+70004- Aparelhagem de vídeo
+701--- Equipamentos relacionado com sistemas de aquecimento refrigeração
+7010-- Equipamento para arrefecimento de ambiente
+70100- Aparelhos de ar condicionado
+70101- Aparelhos de ventilação
+701010 Ventiladores
+701011 Ventiloconvectores
+7011-- Equipamento para aquecimento de piscinas
+7012-- Equipamento para aquecimento eléctrico
+7013-- Equipamento para aquecimento de água
+7014-- Equipamento para aquecimento de ambiente
+70140- Equipamento para aquecimento central
+70141- Acumuladores de energia
+701410 Lareira
+701411 Radiador
+701412 Recuperador de calor
+701413 Salamandra
+701414 Termoacumulador
+701415 Painéis solares
+71---- Acessórios para espaços de circulação
+710--- Equipamento móvel para espaços de circulação
+7100-- Mobiliário para espaços de circulação
+7101-- Acessórios de circulação
+72---- Acessórios para espaços de descanso e do trabalho
+720--- Equipamento móvel para espaços de descanso e do trabalho
+7200-- Mobiliário para espaços de repouso e de trabalho no geral
+7201-- Mobiliário de habitação
+72010- Roupeiros
+7202-- Mobiliário de escritório
+7203-- Mobiliário de escolas
+7204-- Mobiliário de hotelaria
+72040- Expositores
+7205-- Mobiliário residencial
+7209-- Outro mobiliário para espaços de repouso e de trabalho
+73---- Acessórios para cozinhas
+730--- Equipamento diverso para cozinhas
+7300-- Mobiliário de cozinha
+73000- Armário de cozinha
+73001- Móvel de cozinha
+73002- Bancada de cozinha
+73003- Puxadores
+73004- Prateleiras
+7301-- Aparelhos de cozinha
+73010- Misturadora
+73011- Monocomando de lava-louça
+73012- Exaustor
+73013- Chaminé
+73014- Esquentador
+73015- Electrodomésticos
+730150 Fogão
+730151 Fogão de sala
+730152 Forno
+730153 Frigorífico
+730154 Máquina de lavar louça
+730155 Máquina de lavar roupa
+730156 Microondas
+730157 Placa eléctrica
+730158 Grelhas
+74---- Acessórios fixos para instalações sanitárias e higiene
+740--- Mobiliário de casa de banho
+7400-- Aparelhos sanitários
+74000- Autoclismos
+74001- Torneiras monocomandos
+740010 Monoblocos
+740011 Monocomando de banheira
+740012 Monocomando de base de chuveiro
+740013 Monocomando de bidé
+740014 Monocomando de lavatório
+740015 Torneiras de válvulas de esfera
+740016 Torneiras especiais
+740017 Torneiras misturadoras
+740018 Torneiras temporizadas
+740019 Torneiras termostáticas
+74002- Bacias
+740020 Bacia infantil
+740021 Bacia sifónica
+740022 Bacia suspensa
+740023 Bacia turca
+74003- Banheira
+740030 Banheira acrílica
+740031 Banheira acrílica de canto
+740032 Banheira acrílica rectangular
+740033 Banheira acrílica redonda
+740034 Banheira de hidromassagem
+740035 Banheira especial
+74004- Cabinas chuveiros
+740040 Bases de duche
+740041 Banho turco
+740042 Cabina de duche
+740043 Cabina de duche especial
+740044 Cabina de vapor
+740045 Chuveiro
+740046 Chuveiro de hidromassagem
+740047 Sauna
+74005- Lavabos
+740050 Lava-botas
+740051 Lava-louças
+740052 Lava-mãos
+740053 Lava-roupas
+74006- Lavatórios
+740060 Lavatório de coluna
+740061 Lavatório de embutir
+740062 Lavatório de encastrar
+740063 Lavatório em consola
+740064 Lavatório infantil
+740065 Lavatório infantil de coluna
+740066 Lavatório infantil de embutir
+740067 Lavatório semi-encastrar
+740068 Lavatório sobre móvel
+74007- Sanitas bidés urinol
+740070 Bidé
+740071 Bidé suspenso
+740072 Suporte para bidé
+740073 Sanita
+740074 Urinol
+740075 Urinol de canto
+740076 Urinol de coluna
+740077 Aro de sanita
+7401-- Acessórios equipamentos variados
+74010- Aquecedores
+740100 Aquecedor de toalhas
+74011- Desumidificadores
+74012- Dispensador de toalhas
+74013- Saboneteira
+74014- Secador de mãos
+74015- Toalheiros
+74016- Suportes resguardos
+740160 Suporte para bacia
+740161 Suporte para bacia com tanque
+740162 Suporte para bacia sem tanque
+740163 Suporte para lavatório
+740164 Resguardo para banheira
+740165 Resguardo para chuveiro
+740166 Separador de urinol
+74017- Tampas
+740170 Tampas de esgotos
+740171 Tampas de sanita
+74018- Espelho
+740180 Espelho duplo
+75---- Acessórios para instalações de manutenção limpeza
+750--- Mobiliário para espaços de manutenção limpeza
+7500-- Aspirador central
+76---- Acessórios fixos para instalações de armazenagem depósito
+760--- Mobiliário para espaços de armazenagem depósito
+77---- Acessórios fixos para instalações destinadas a actividades especiais
+770--- Mobiliário para instalações destinadas a actividades especiais
+771--- Equipamentos de segurança controlo
+7710-- Equipamentos contra incêndio
+77100- Detectores
+771000 Detectores de fumo
+771001 Detectores de gases
+77101- Extintores
+77102- Extractores
+771020 Extracção de fumos
+77103- Boca de incêndio
+7711-- Equipamentos de alarme
+77110- Alarme de incêndio
+7712-- Equipamento prevenção contra roubo intrusão
+772--- Equipamentos de recreio lazer desportivos
+7720-- Barbecue
+773--- Equipamentos para pessoas com mobilidade condicionada
+7730-- Acessórios para deficientes
+77300- Barra de apoio de parede duo
+77301- Barra de apoio de parede tri
+77302- Barra de apoio lateral
+77303- Barra de apoio parede pavimento
+77304- Barra de apoio rebatível
+77305- Barra de apoio simples de parede
+77306- Barras anti-pânico
+77307- Barras de apoio
+77308- Louça-sanitária para deficientes
+774--- Equipamentos para estações serviço oficinas
+775--- Equipamentos para Etar's
+776--- Equipamentos rega hidráulica
+777--- Equipamentos de som imagem
+7770-- Intercomunicadores
+7771-- Vídeo-porteiros
+7772-- Video-telefones
+778--- Equipamentos mecânicos
+7780-- Equipamentos mecânicos principais para produção embalagens de plástico
+77801- Injecção (INJ)
+778010 Co-Injecção injecção multicamadas
+778011 Co-Extrusão extrusão multicamadas
+77802- Extrusão sopro (EBM)
+77803- Estiramento sopro (SBM)
+77804- Termoformagem (TRMF)
+77805- Impressoras (PRT)
+77806- Integradas
+7781-- Equipamentos mecânicos secundários para produção embalagens de plástico
+77810- Testadoras
+77811- Transportadoras
+778110 Tapetes
+778111 Transportadores pneumáticos
+778112 Transportadores jet stream
+77812- Cortadoras
+77813- Silos
+77814- Rotuladoras
+77815- Posicionadoras
+77816- Paletizadores (paletes)
+77817- Trituradores moínhos
+77818- Secadores de matéria-prima
+7782-- Equipamentos mecânicos auxiliares para produção embalagens de plástico
+77820- Refrigeradores
+77821- Compressores de ar
+778210 Compressores ar de alta pressão
+778211 Compressores ar de baixa pressão
+77822- Torres de refrigeração
+77823- Secadores de ar comprimido
+78---- Acessórios fixos para espaços exteriores
+780--- Equipamento para espaços exteriores
+7800-- Caixas
+78000- Caixas de correio
+78001- Caixas EDP
+78002- Caixas EPAL
+78003- Caixas TLP
+7801-- Bancadas
+78010- Bancos
+7802-- Bancas
+781--- Acessórios de jardim
+7810-- Mobiliário de jardim
+78100- Bebedouros
+78101- Cercas
+78102- Papeleiras
+78103- Cinzeiro mural
+78104- Iluminação
+781040 Candeeiros
+78105- Canteiros
+781050 Floreiras
+78106- Bancos de jardim
+782--- Acessórios de piscinas
+7820-- Bombas
+7821-- Componentes eléctricos
+783--- Acessórios urbanos
+7830-- Mobiliário urbano
+7831-- Sinalética
+7832-- Sinalização automóvel
+78320- Sinalização deficientes
+78321- Sinais de trânsito
+783210 Semáforos
+783211 Placa de sinalização
+78322- Pilar SOS
+7833-- Marcos de estacionamento
+7834-- Toponímia
+7835-- Equipamento recolha lixo
+78350- Ecoponto
+7836-- Marco CTT
+784--- Postes
+7840-- Poste iluminação
+7841-- Poste telefónico
+78410- Cabina telefónica
+7842-- Poste ou placar publicitário
+7843-- Postes eléctricos
+78430- Poste de alta tensão
+78431- Poste de baixa tensão
+785--- Quiosque
+79---- Outros acessórios equipamentos
+790--- Acessórios e equipamentos diversos
+7900-- Alarme
+7901-- Antena
+79010- Parabólica
+79011- Parafusos
+7902-- Injector
+79020- Injectores de água ar
+7903-- Cabide
+79030- Cabide duplo
+79031- Cabide simples
+7904-- Cilindro
+7905-- Contador
+7906-- Convector
+7907-- Fluxómetro
+791--- Equipamentos motorizados
+7910-- Motor
+7911-- Guindaste
+7912-- Báscula (balança)
+8----- Trabalhos nos terrenos
+80---- Preparação do terreno local
+800--- Limpeza do local
+801--- Terraplanagem
+8010-- Elementos gráficos associados á terraplanagem
+80100- Representação de áreas e manchas
+801000 Área de aterro
+801001 Área de coroamento
+801002 Área de escavação
+801003 Área de sub-balastro
+801004 Mancha de ocupação
+80101- Simbologia de geologia e geotecnia
+801010 Simbologia genérica
+801011 Simbologia de prospecção
+801012 Quadros de ensaios de laboratório
+802--- Aterros e taludes
+8020-- Aterro
+8021-- Talude
+80210- Base de talude
+802100 Base de talude de aterro
+802101 Base de talude de escavação
+80211- Crista de talude
+802110 Crista de talude de aterro
+802111 Crista de talude de escavação
+80212- Pente de talude
+8022-- Estabilização de taludes
+80220- Elementos diversos para estabilização de taludes
+80221- Gabião
+802210 Gabião contorno
+802211 Gabião enchimento
+802212 Gabião rede
+802213 Gabião sapata
+80222- Escarpados
+802220 Limite superior do escarpado
+802221 Limite inferior do escarpado
+8023-- Socalco
+8024-- Combro
+803--- Contenção de terras muros de contenção periférica
+8030-- Muro de suporte
+80300- Base de muro de suporte
+804--- Estabilização
+8040-- Vedações
+80400- Vedação de arame ou rede
+80401- Muro de vedação
+805--- Sebes
+8050-- Sebe ou valado
+806--- Drenagem
+8060-- Elementos gerais de drenagem
+80600- Caixa de ligação e recepção
+80601- Caixa de visita
+806010 Caixa de visita com tampa sumidoura
+80602- Dissipador de energia
+80603- Drenos e colectores
+806030 Colectores
+806031 Drenos
+80604- Passagem hidráulica
+806040 Passagem hidráulica com bocas em aterro
+806041 Passagem hidráulica com bocas em aterro e escavação
+8061-- Valas
+80610- Vala trapezoidal em terra
+80611- Vala trapezoidal revestida com enrocamento
+8062-- Valetas (drenagem)
+80620- Valeta de banqueta
+80621- Valeta de bordadura de aterro
+80622- Valeta de crista
+806220 Valeta de crista semicircular
+806221 Valeta de crista triangular em betão
+80623- Valeta de pé de talude
+806230 Valeta de descida de talude
+806231 Valeta de pé de talude revestida
+806232 Valeta de pé de talude em terra
+80624- Valeta de plataforma
+806240 Valeta de plataforma triangular revestida a betão
+806241 Valeta de plataforma revestida a betão e dreno
+806242 Valeta de plataforma triangular revestida a betão e colector
+806243 Valeta de plataforma triangular revestida a betão dreno e colector
+806244 Valeta de plataforma tipo REFER
+806245 Valeta de plataforma tipo REFER e dreno
+806246 Valeta de plataforma tipo REFER e colector
+806247 Valeta de plataforma tipo REFER dreno e colector
+809--- Outros trabalhos de preparação do terreno local
+81---- Topografia
+810--- Curvas de nível gerais
+811--- Curvas de nível principais mestras
+812--- Curvas de nível secundárias
+813--- Linhas de água
+814--- Lagos charcos piscinas naturais poços
+815--- Vegetação
+8150-- Herbáceas
+8151-- Sub-arbustos
+8152-- Arbustos
+8153-- Árvores
+81530- Caldeiras de árvores
+81531- Árvores isoladas
+8154-- Palmeiras
+816--- Propriedades
+819--- Outros elementos topográficos
+8190-- Lancil
+8191-- Sarjeta
+82---- Trabalhos no exterior
+820--- Tratamento de superfícies
+821--- Arranjos paisagísticos
+8210-- Vedações e muros de vedação
+8211-- Passeios
+822--- Túneis escavações
+823--- Reservatórios cisternas tanques
+8230-- Cisterna
+8231-- Reservatório
+8232-- Tanque
+824--- Pontes viadutos
+825--- Passagens subterrâneas
+826--- Canos rodenturas canais e vazadouros
+8260-- Cano
+8261-- Rodentura
+8262-- Canal
+8263-- Vazadouro
+827--- Edifícios menores anexos
+828--- Outros trabalhos no exterior
+9----- Cartografia
+90---- Elementos cartográficos
+900--- Redes de apoio pontos linhas notáveis
+9000-- Rede geodésica
+9001-- Sinais geodésicos
+90010- Geodésico em forte
+90011- Geodésico em depósito de água elevado
+90012- Geodésico em farol
+90013- Geodésico em posto de vigia
+90014- Vértice de adensamento da rede geodésica
+9002-- Marco geodésico de 1ª ordem
+9003-- Marco geodésico de 2ª e 3ª ordem
+9004-- Geodésico em igreja
+9005-- Geodésico em capela
+9006-- Geodésico em casa
+9007-- Geodésico em moinho
+9008-- Cruzeiro servindo de geodésico
+9009-- Geodésico em castelo
+901--- Rede fotogramétrica
+9010-- Pontos fotogramétricos
+9011-- Ponto fotogramétrico total
+9012-- Ponto fotogramétrico planimétrico
+9013-- Ponto fotogramétrico altimétrico
+902--- Limites
+9020-- Limites administrativos fiscais jurídicos
+9021-- Limites administrativos
+9022-- Limite de país
+9023-- Limite de distrito
+9024-- Limite de concelho
+9025-- Limite de freguesia
+9026-- Limite não definido
+9027-- Limites de expropriação
+9028-- Limites de prédio rústico
+9029-- Outros limites
+90290- Limite de cultura
+90291- Limite de jardim
+90292- Limite de vegetação
+90293- Limite de área em alteração
+90294- Limite de reserva natural
+90295- Limite de estrema
+90296- Limite geológico
+90297- Limite litológico
+90298- Limites associados aos caminhos de ferro
+902980 Limite de parcela com DUP a restituir
+902981 Limite de parcela de expropriação
+902982 Limite de parcela de ocupação temporária
+902983 Limite de parcela de ónus de servidão
+902984 Limite de parcela sobrante
+902985 Limite dos terrenos do caminho de ferro
+903--- Marcos administrativos
+9030-- Marco de fronteira
+9031-- Marco de concelho ou freguesia
+9039-- Outros marcos
+90390- Marco hectométrico
+90391- Marco quilométrico
+90392- Marco de nivelamento
+904--- Redes locais
+9040-- Redes locais principais
+90400- Vértice de rede principal planimétrica
+90401- Vértice de rede principal altimétrica
+909--- Outros elementos cartográficos
+9090-- Simbologia cartografia
+90900- Norte geográfico
+90901- Raios
+90902- Vértices genéricos
+909020 Vértice da directriz
+909021 Vértice de apoio
+909022 Vértices de limite dos terrenos do caminho de ferro
+909023 Vértice geodésico
+909024 Vértice não estacionável
+909025 Vértice poligonal
+909026 Vértice trigonométrico
+90903- Vértices de limite de parcela
+909030 Vértice de limite de parcela a expropriar
+909031 Vértice de limite de parcela com DUP a restituir
+909032 Vértice de limite de parcela de ocupação temporária
+909033 Vértice de limite de parcela de ónus de servidão
+909034 Vértice de limite de parcela sobrante
+90904- Vértices de expropriação
+909040 Vértice de expropriação ímpar
+909041 Vértice de expropriação par
+909042 Vértice de limite de expropriação
+90905- Pontos auxiliares
+90906- Pontos de cota
+909060 Pontos de cota de obras de arte
+909061 Ponto de cota de soleira
+90907- Coordenadas
+909070 Quadro de coordenadas
+91---- Construções em geral
+910--- Edifícios públicos oficiais
+9100-- Administração central
+91000- Parlamento
+91001- Tribunal
+91002- Prisão
+91003- Penitenciária
+91004- Posto fronteiriço
+9101-- Administração regional
+91010- Câmara municipal secretaria regional
+91011- Assembleia municipal
+91012- Tribunal
+91013- Governo civil
+9102-- Representações diplomáticas
+91020- Embaixada consulado missão
+9103-- Edifícios centrais ligados a serviços e comunicações
+91030- Correios telégrafos e outros
+91031- Comunicação social
+91032- Bancos
+91033- Seguros
+91034- Edifícios para serviços gás
+91035- Edifícios para serviços água
+91036- Edifícios para serviços electricidade
+91037- Edifícios para serviços telefone
+911--- Educação investigação
+9110-- Escola primária
+9111-- Escola preparatória ou secundária
+9112-- Estação experimental
+9113-- Creche
+9114-- Infantário
+9115-- Jardim de infância
+9116-- Escola de ensino especial
+9117-- Escola de formação profissional
+9118-- Universidade faculdade
+912--- Saúde higiene
+9120-- Hospital
+9121-- Sanatório
+9122-- Maternidade
+9123-- Centro de saúde
+9124-- Centro de recuperação e reabilitação
+9125-- Edifícios sociais
+91250- Lar idosos
+91251- Centro social
+9129-- Instalações médicas gerais
+913--- Cultura lazer
+9130-- Planetário
+9131-- Observatório
+9132-- Centro cultural
+9133-- Biblioteca mediateca
+91330- Biblioteca
+91331- Mediateca
+9134-- Termas
+9135-- Parques jardins em geral
+91350- Edifícios para parques de campismo
+913500 Parques de campismo
+91351- Jardim zoológico
+913510 Edifícios zoologia
+91352- Jardim botânico
+913520 Edifícios botânica
+913521 Estufa
+9136-- Cinemas teatros coliseus e outros
+91360- Cinema
+91361- Coliseu
+91362- Teatro
+91363- Anfiteatro
+91364- Coreto
+9137-- Museu
+9138-- Edifícios comerciais
+91380- Centro comercial
+91381- Mercado
+91382- Hipermercado
+914--- Monumentos
+9140-- Mosteiro convento
+9141-- Padrão
+9142-- Pelourinho
+9143-- Estátua
+9144-- Forte
+9145-- Castelo
+9146-- Palácio
+9147-- Ruínas com interesse histórico
+9148-- Cruzeiro
+9149-- Castro
+915--- Locais de culto
+9150-- Igreja
+9151-- Capela
+9152-- Santuário
+9153-- Basílica catedral
+9154-- Sinagoga
+9155-- Mesquita
+9156-- Menir
+9157-- Anta
+916--- Forças militares ou militarizadas
+9160-- Quartel
+9161-- Forte
+9162-- Quartel dos bombeiros
+9163-- Edifício GNR
+9164-- Esquadra PSP
+917--- Habitações
+9170-- Residenciais
+9171-- Vivenda casa
+9172-- Barraca
+9173-- Anexos
+91730- Alpendre
+91731- Arrecadação
+91732- Garagem
+9174-- Telheiro
+918--- Edifícios industriais
+9180-- Produção transformação
+91800- Moinhos
+918000 Moinho de água
+918001 Moinho de vento
+91801- Moinhos não industriais
+9181-- Refinaria
+9182-- Fábrica
+91820- Chaminé de fábrica
+9183-- Forno
+9184-- Indústrias hoteleiras
+91840- Hotel
+91841- Pensão residencial albergaria
+91842- Pousadas
+91843- Pousadas da juventude
+9185-- Centrais de abastecimento
+9186-- Depósito de combustível
+9187-- Armazenagem
+9188-- Silo
+919--- Outros edifícios outras instalações
+9190-- Instalações de apoio ao tráfego
+91900- Tráfego rodoviário
+91901- Parque estacionamento em silo
+91902- Parque estacionamento em silo telheiro
+91903- Estação terminal de camionagem
+91904- Áreas de serviço restaurante estação de serviço
+919040 Bomba gasolina
+919041 Portagem
+91905- Tráfego ferroviário
+919050 Estação do CF
+919051 Apeadeiro do CF
+91906- Estações do metro
+919060 Estação do metro superficial
+919061 Estação do metro subterrâneo
+919062 Estação do teleférico
+91907- Tráfego aéreo
+919070 Hangar
+91908- Tráfego marítimo
+919080 Estaleiro
+919081 Doca
+9191-- Instalações destinadas ao abastecimento de água
+91910- Estação de tratamento águas
+91911- Central elevatória
+91912- Depósitos
+919120 Depósito água
+919121 Depósito água elevado
+91913- Chafariz bica fontanário fonte
+919130 Bica
+919131 Chafariz
+919132 Fontanário
+919133 Fonte
+919134 Lavadouro
+91914- Condutas
+919140 Conduta elevada
+919141 Conduta subterrânea
+9192-- Instalações destinadas a tratamento de resíduos
+91920- Resíduos sólidos
+91921- Resíduos líquidos
+91922- Resíduos industriais
+91923- Resíduos tóxicos
+91924- Áreas industriais serviços em geral
+919240 Explorações mineiras
+919241 Pedreiras
+919242 Mina
+9193-- Instalações florestais
+91930- Serviços florestais
+91931- Posto de vigia
+9194-- Instalações de recreio de repouso lazer
+91940- Instalações desportivas
+91941- Campos de jogos
+919410 Com bancadas
+919411 Sem bancadas
+919412 Limite do campo da prática desportiva
+91942- Campos de golfe
+91943- Pistas
+919430 Excursionismo pedestrianismo
+919431 Miradouro
+91944- Praças de touros
+919440 Limite da arena
+91945- Carreiras de tiro
+919450 Campos de tiro
+91946- Campos de ténis
+91947- Parques de diversão
+919470 Feira popular
+919471 Parque aquático
+919472 Parque infantil
+91948- Pavilhão gimno-desportivo
+91949- Piscinas
+919490 Interiores
+919491 Exteriores
+9195-- Áreas produção energia eléctrica abastecimento gás petróleo produtos químicos
+91950- Posto de transformação
+91951- Central eléctrica
+91952- Energia eléctrica
+91953- Cabo de transporte aéreo de alta tensão
+919530 Linha de alta tensão
+91954- Gasómetro
+91955- Central de abastecimento de gás
+91956- Gasoduto
+91957- Oleoduto
+91958- Depósito de petróleo
+9196-- Aproveitamento da energia eólica
+91960- Gerador eólico
+9197-- Telecomunicações
+91970- Antena de emissão recepção
+91971- Estação de emissão
+91972- Estação de telecomunicações
+9198-- Outras estruturas
+91980- Aproveitamento de águas
+919800 Poço
+919801 Nora
+919802 Azenha
+91981- Matérias extractivas
+919810 Mina
+919811 Salina
+91982- Edifícios em construção
+91983- Edifício em ruínas
+919830 Ruínas sem interesse histórico
+91984- Estruturas de transporte abastecimento
+919840 Transporte
+919841 Cais de embarque desembarque
+91985- Torre
+919850 Torre de alta tensão
+919851 Torre de vigia
+91986- Edifício subterrâneo
+92---- Áreas protegidas
+920--- Parques reservas naturais
+9200-- Reserva ecológica nacional (REN)
+9201-- Reserva agrícola nacional (RAN)
+921--- Áreas de interesse histórico
+9210-- Área de protecção aos monumentos
+9211-- Área de protecção a ruínas
+9212-- Estações arqueológicas
+9213-- Cemitérios
+92130- Alminhas
+93---- Áreas agrícolas e florestais
+930--- Áreas aráveis
+9300-- Cultura arvense
+9301-- Regadio horta
+93010- Levada
+9302-- Sequeiro
+9303-- Semeadura semeação
+931--- Áreas verdes não aráveis
+932--- Mato mata
+933--- Áreas horto-frutícolas
+9330-- Pomar
+9331-- Olival
+9332-- Vinhas
+9333-- Áreas florestais
+9334-- Folha caduca
+9335-- Castanheiros
+9336-- Carvalhos
+9337-- Folha persistente
+93370- Eucaliptos
+93371- Pinheiros
+93372- Montado sobro e azinho
+93373- Sobreiros
+93374- Azinheiros
+934--- Arrozal
+935--- Eira
+94---- Hidrografia
+940--- Nascentes cursos de água
+9400-- Nascentes
+9401-- Nascente a céu aberto
+9402-- Nascente mineral a céu aberto
+9403-- Mãe de água
+9404-- Queda de água
+941--- Rios
+9410-- Rio navegável ou flutuável
+94100- Eixo do rio navegável ou flutuável
+9411-- Rio não navegável nem flutuável
+94110- Eixo do rio não navegável nem flutuável
+9412-- Limite de navegabilidade dos rios
+942--- Canais em geral
+943--- Aqueduto
+9430-- Aqueduto superficial
+9431-- Aqueduto sobre arcadas ou pilares
+9432-- Aqueduto subterrâneo
+944--- Ribeiras linhas de água
+9440-- Linha de água
+94400- Eixo da linha de água
+9441-- Ribeira
+94410- Eixo da ribeira
+945--- Formas especiais
+9450-- Valas
+9451-- Estruturas associadas à hidrografia
+94510- Comportas
+94511- Açudes represas
+94512- Açude
+94513- Represa
+94514- Barragem
+945140 Paredão de barragem
+945141 Eclusa
+945142 Coroamento
+94515- Estruturas associadas outras
+9452-- Medidores de nível
+94520- Marégrafo
+9453-- Tanques lagos pequenos
+94530- Lago de jardim
+94531- Tanque
+94532- Charcos
+94533- Piscinas naturais
+94534- Poços
+946--- Portos
+9460-- Porto fluvial
+9461-- Porto marítimo
+947--- Superfícies aquáticas
+9470-- Lagos artificiais
+9471-- Albufeira
+9472-- Lagoas
+9473-- Pântanos
+9474-- Sapal
+9475-- Terreno inundável
+95---- Hidrografia costeira
+950--- Margens consolidadas linhas de costa
+9501-- Areal
+95010- Areias
+951--- Paredão muro cais
+9510-- Molhe
+952--- Margem com esporões
+953--- Margem instável
+954--- Margem firme rochosa
+955--- Margem indeterminada arenosa
+956--- Elementos especiais
+9560-- Linha de regolfo das albufeiras
