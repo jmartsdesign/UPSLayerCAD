@@ -1,0 +1,16 @@
+2----- Elementos primários
+20---- Elementos primários genéricos Muros e paredes
+200--- Paredes
+21---- Muros Paredes exteriores
+210--- Paredes exteriores
+211--- Acabamentos de paredes exteriores
+219--- Outros muros paredes exteriores
+2190-- Muro simples
+2191-- Muro com gradeamento
+2192-- Muro com jorramento
+2193-- Muralha
+22---- Paredes interiores e divisórias
+220--- Paredes interiores
+221--- Acabamentos de paredes interiores
+229--- Outras paredes interiores
+29---- Outros elementos primários

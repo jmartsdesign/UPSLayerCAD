@@ -1,0 +1,22 @@
+2----- Elementos primários
+24---- Escadas
+240--- Escadas gerais
+2400-- Escadas de emergência
+2401-- Escadas em caracol
+2402-- Escadas metálicas
+2403-- Escadas para sótãos
+2404-- Escadas rolantes
+2405-- Escadas rampeadas
+241--- Acabamentos de escadas
+242--- Estrutura de escadas
+243--- Suportes de escadas
+244--- Cobertores
+245--- Espelhos
+246--- Balaustradas, gradeamentos
+2460-- Balaústres
+2461-- Gradeamentos
+247--- Guardas Corrimãos
+2470-- Corrimãos de escadas
+2471-- Guardas de escadas
+249--- Outras escadas
+29---- Outros elementos primários

@@ -1,0 +1,193 @@
+0----- Outros
+1----- Elementos estruturais substrutura
+10---- Solo
+11---- Fundações
+110--- Estacas
+111--- Micro-estacas
+112--- Getgrouting
+113--- Sapatas
+12---- Pilares
+13---- Vigas
+130--- Vigotas
+14---- Sumidouros
+15---- Drenagem
+150--- Drenagem de águas pluviais
+151--- Drenagem subterrânea
+152--- Drenos
+153--- Geodrenos
+16---- Muros de contenção
+160--- Muro de contenção periférica e fundações
+161--- Muro de vedação
+162--- Ancoragens
+163--- Pregagens
+17---- Lajes bases de pavimentos
+170--- Prelajes
+18---- Armaduras
+180--- Moldes para armaduras
+181--- Perfis metálicos
+1810-- Elementos metálicos associados às estruturas
+182--- Tipos de armaduras
+1820-- A400 NR
+1821-- A400 NR de ductilidade especial
+1822-- A500 NR
+1823-- A500 ER
+19---- Outros elementos estruturais
+190--- Cofragem
+191--- Fio para pré-esforço
+192--- Varões
+1920-- Varões nervurados
+193--- Redes electrossoldadas
+194--- Nervuras
+1940-- Nervuras transversais
+195--- Traves
+1950-- Alminha
+199--- Elementos genéricos associados às estruturas
+1990-- Juntas de dilatação
+2----- Elementos primários
+20---- Elementos primários genéricos muros e paredes
+200--- Paredes
+21---- Muros paredes exteriores
+210--- Paredes exteriores
+211--- Acabamentos de paredes exteriores
+219--- Outros muros paredes exteriores
+2190-- Muro simples
+2191-- Muro com gradeamento
+2192-- Muro com jorramento
+2193-- Muralha
+22---- Paredes interiores e divisórias
+220--- Paredes interiores
+221--- Acabamentos de paredes interiores
+229--- Outras paredes interiores
+23---- Pavimentos galerias mezaninos balcões
+230--- Pavimentos
+231--- Acabamentos de pavimentos galerias mezaninos balcões
+232--- Pavimentos de laje pavimentos monolíticos
+233--- Extremidades das lajes
+234--- Pavimentos compostos montados
+235--- Pavimentos exteriores terraços coberturas acessíveis
+236--- Bailéus alpendres
+237--- Balcões galerias
+238--- Varandas varandins
+239--- Outros pavimentos galerias mezaninos balcões
+24---- Escadas
+240--- Escadas gerais
+2400-- Escadas de emergência
+2401-- Escadas em caracol
+2402-- Escadas metálicas
+2403-- Escadas para sótãos
+2404-- Escadas rolantes
+2405-- Escadas rampeadas
+241--- Acabamentos de escadas
+242--- Estrutura de escadas
+243--- Suportes de escadas
+244--- Cobertores
+245--- Espelhos
+246--- Balaustradas gradeamentos
+2460-- Balaústres
+2461-- Gradeamentos
+247--- Guardas corrimãos
+2470-- Corrimãos de escadas
+2471-- Guardas de escadas
+249--- Outras escadas
+25---- Rampas
+250--- Rampas gerais
+251--- Acabamentos de rampas
+252--- Estrutura de rampas
+253--- Suportes de rampas
+254--- Balaustradas de rampas
+255--- Corrimãos de rampas
+259--- Outras rampas
+26---- Elevadores e plataformas
+260--- Elevador ou ascensor
+261--- Elevadores de escada para cadeiras de rodas
+262--- Montacargas
+263--- Plataformas gerais
+264--- Plataformas elevatórias
+265--- Plataformas móveis modulares
+269--- Outros elevadores plataformas
+27---- Coberturas e telhados
+270--- Coberturas gerais
+2700-- Coberturas isolantes
+2701-- Coberturas em arco
+2702-- Coberturas em colmo
+2703-- Coberturas autoportantes
+2704-- Coberturas tensionadas
+2705-- Coberturas para piscinas
+271--- Acabamentos de coberturas
+272--- Elementos de composição de coberturas telhados
+2720-- Algerozes goteiras
+2721-- Beirados
+2722-- Caleiras
+2723-- Cimalhas
+2724-- Cornijas
+2725-- Telhas
+273--- Vãos aberturas nas coberturas
+2730-- Clarabóia
+2731-- Chaminé
+274--- Tectos falsos
+2740-- Estrutura de tectos falsos
+279--- Outras coberturas telhados
+29---- Outros elementos primários
+3----- Elementos secundários
+30---- Elementos secundários acessórios gerais
+31---- Elementos secundários de paredes exteriores
+310--- Acessórios de paredes exteriores
+32---- Elementos secundários de paredes interiores
+320--- Acessórios de paredes interiores
+33---- Elementos secundários de pavimentos
+330--- Acessórios de pavimentos
+34---- Elementos secundários de escadas rampas
+340--- Acessórios de escadas rampas
+35---- Elementos secundários para tectos tectos falsos
+350--- Acessórios para tectos e tectos falsos
+3501-- Acabamentos de tectos falsos
+3502-- Acessórios para tectos falsos
+3503-- Tectos falsos tensos ou tensionados
+3504-- Tectos falsos suspensos
+3505-- Tectos falsos pré-fabricados
+3506-- Outros tectos falsos
+36---- Portas e janelas
+360--- Portas e janelas em geral
+361--- Acabamentos de portas janelas
+362--- Elementos de composição de portas janelas
+3620-- Aros
+3621-- Arquitraves
+3622-- Caixilhos
+3623-- Ferragens puxadores outras peças de suporte
+36230- Ferragens
+36231- Ferragens especiais
+36232- Ferragens oscilo-batente
+36233- Ferragens para portas de correr
+36234- Ferramentas acessórios
+36235- Fechaduras
+3624-- Folhas
+3625-- Ombreiras soleiras peitoris
+3626-- Postigos
+3627-- Vidros
+3628-- Outros elementos para portas e janelas
+363--- Persianas estores venezianas
+3630-- Caixas de estores
+3631-- Estores
+3632-- Persiana
+3633-- Veneziana
+364--- Portas
+3640-- Portas corta-fogo
+3641-- Portas de alta segurança
+3642-- Portas de fole
+3643-- Portas giratórias
+3644-- Portas automáticas
+3645-- Portas de correr
+3646-- Portas interiores
+3647-- Portas exteriores
+3648-- Portas especiais
+3649-- Portões
+365--- Janelas
+3650-- Janelas de alta segurança
+3651-- Janelas automáticas
+3652-- Janelas de correr
+3653-- Janelas de sótão
+3654-- Janelas especiais
+3655-- Janelas de sacada
+369--- Outros elementos de portas janelas
+39---- Outros elementos secundários gerais
+390--- Outros elementos secundários acessórios
